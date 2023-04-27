@@ -12,7 +12,7 @@
 
 </head>
 
-<body class="font-inter">
+<body class="font-poppins">
     <main>
         <section id="profile">
             <div class=" dark:text-white bg-white dark:bg-black ">
@@ -40,7 +40,7 @@
                         </div>
                         <div class=" pl-10">
                             <!-- Username -->
-                            <h1 class=" font-bold lg:text-5xl md:text-3xl sm: text-2xl"> @Kanha23</h1>
+                            <h1 class=" font-bold lg:text-5xl md:text-3xl sm: text-2xl font-poppins"> @Kanha23</h1>
                             <!-- Profile bio -->
                             <p class=" break-words lg:text-base md:text-sm text-sm text-slate-700 dark:text-slate-400">Be the brightest star. Your time is limited, so don't waste it
                                 living someone
