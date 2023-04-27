@@ -12,7 +12,7 @@
 
 </head>
 
-<body>
+<body class="font-inter">
     <main>
         <section id="profile">
             <div class=" dark:text-white bg-white dark:bg-black ">

@@ -75,7 +75,7 @@
         </svg>
           </p>
           <div class="flex">
-            <img src="https://eitrawmaterials.eu/wp-content/uploads/2016/09/person-icon.png" alt="" class="rounded-full w-1/12 p-1">
+            <img src="https://eitrawmaterials.eu/wp-content/uploads/2016/09/person-icon.png" alt="" class="rounded-full w-12">
             <input class="m-1 px-4 bg-gray-300 italic rounded-lg text-slate-600 placeholder-gray-500 outline-0 " type="text" name="" placeholder="Write a comment">
             <div class="h-8 px-2 m-2 border-solid rounded-lg bg-green-600 text-white cursor-pointer transition-colors duration-500 hover:bg-green-700 sm:flex flex">
                     <svg class="w-5 inline-block" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
