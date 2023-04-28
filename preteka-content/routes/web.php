@@ -27,3 +27,9 @@ Route::get('/detail', function () {
 Route::get('/event', function () {
     return view('event');
 });
+Route::get('/user-login', function () {
+    return view('user-login');
+});
+Route::get('/user-signup', function () {
+    return view('user-signup');
+});
