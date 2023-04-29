@@ -33,3 +33,9 @@ Route::get('/user-login', function () {
 Route::get('/user-signup', function () {
     return view('user-signup');
 });
+Route::get('/aboutus', function () {
+    return view('aboutus');
+});
+Route::get('/home', function () {
+    return view('homepage');
+});
