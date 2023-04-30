@@ -76,7 +76,7 @@
           </p>
           <div class="flex">
             <img src="https://eitrawmaterials.eu/wp-content/uploads/2016/09/person-icon.png" alt="" class="rounded-full w-12">
-            <input class="m-1 px-4 bg-gray-300 italic rounded-lg text-slate-600 placeholder-gray-500 outline-0 " type="text" name="" placeholder="Write a comment">
+            <input class="m-1 px-4 bg-gray-300 placeholder:italic rounded-lg placeholder:text-slate-600 placeholder-gray-500 outline-0 " type="text" name="" placeholder="Write a comment">
             <div class="h-8 px-2 m-2 border-solid rounded-lg bg-green-600 text-white cursor-pointer transition-colors duration-500 hover:bg-green-700 sm:flex flex">
                     <svg class="w-5 inline-block" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" stroke-linecap="round" stroke-linejoin="round"></path>
