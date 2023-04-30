@@ -27,6 +27,7 @@ Route::get('/booking', function () {
 Route::get('/upload', function () {
     return view('upload');
 });
+Route::view('/payment','payment');
 Route::get('/pf-page', function () {
     return view('pf-page');
 });
