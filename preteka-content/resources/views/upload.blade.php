@@ -17,7 +17,9 @@
         <div class="w-5/6 lg:h-screen md:overflow-auto flex mx-auto  border-t-2 border-gray-400">
 
             <div class="w-32 drop-shadow-lg bg-white  ">
-                <div class="w-3/4 bg-slate-500 h-24 mx-auto mt-4"></div>
+                <div class="w-3/4 h-24 mx-auto mt-4">
+                    <img class=" w-36" src="img/logo1.png" alt="">
+                </div>
             </div>
 
             <div class="grow drop-shadow-lg  bg-white lg:grid-cols-2  lg:flex">
