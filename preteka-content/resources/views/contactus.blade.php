@@ -6,8 +6,18 @@
   @vite('resources/css/app.css')
   @vite('resources/js/app.js')
 </head>
-<body>
+<body class="dark:bg-black dark:text-white">
         <!--Contact-->
+        <div class="moon cursor-pointer w-4">
+        <svg class=" moon text-black" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z"></path>
+        </svg>
+        </div>
+        <div class="sun cursor-pointer w-4">
+        <svg class=" sun" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z"></path>
+        </svg>
+        </div>
         <div class="block md:flex sm:block  bg-green-600 lg:items-center">
             <img class="lg:w-2/5 md:w-1/2" src="https://ecomexpress.in/wp-content/uploads/2021/02/contact-us-banner-img.png" alt="" >
             <div>
@@ -84,13 +94,13 @@
                 <form>
                     <div class="grid gap-6">
                         <div class="">
-                            <input class="w-full p-2 px-4 bg-gray-300 placeholder:italic rounded-lg placeholder:text-slate-600 placeholder-gray-500 outline-0 " type="text" name="" placeholder="Full Name">
+                            <input class="w-full p-2 px-4 bg-gray-300 placeholder:italic rounded-lg placeholder:text-slate-600 placeholder-gray-500 outline-0 dark:text-black" type="text" name="" placeholder="Full Name">
                         </div>
                         <div class="">
-                        <input class="w-full p-2 px-4 bg-gray-300 placeholder:italic rounded-lg placeholder:text-slate-600 placeholder-gray-500 outline-0 " type="text" name="" placeholder="gmail@example.com">
+                        <input class="w-full p-2 px-4 bg-gray-300 placeholder:italic rounded-lg placeholder:text-slate-600 placeholder-gray-500 outline-0 dark:text-black " type="text" name="" placeholder="gmail@example.com">
                     </div>
                     <div class="mt-5">
-                        <textarea class="w-full p-2 px-4 bg-gray-300 placeholder:italic rounded-lg placeholder:text-slate-600 placeholder-gray-500 outline-0 " type="text" name="" placeholder="Write your thought here..."></textarea>
+                        <textarea class="w-full p-2 px-4 bg-gray-300 placeholder:italic rounded-lg placeholder:text-slate-600 placeholder-gray-500 outline-0 dark:text-black " type="text" name="" placeholder="Write your thought here..."></textarea>
                     </div>
                     <button type="submit" class="my-4 p-2 text-white bg-green-600 transition-colors duration-500 border-solid border-green-600 border-2 rounded-lg focus:ring-green-400 hover:bg-green-700 hover:text-white ">Send</button>
                 </form>

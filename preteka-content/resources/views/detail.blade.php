@@ -76,7 +76,7 @@
           </p>
           <div class="flex">
             <img src="https://eitrawmaterials.eu/wp-content/uploads/2016/09/person-icon.png" alt="" class="rounded-full w-12">
-            <input class="m-1 px-4 bg-gray-300 placeholder:italic rounded-lg placeholder:text-slate-600 placeholder-gray-500 outline-0 " type="text" name="" placeholder="Write a comment">
+            <input class="m-1 px-4 bg-gray-300 placeholder:italic rounded-lg placeholder:text-slate-600 placeholder-gray-500 outline-0 dark:text-black" type="text" name="" placeholder="Write a comment">
             <div class="h-8 px-2 m-2 border-solid rounded-lg bg-green-600 text-white cursor-pointer transition-colors duration-500 hover:bg-green-700 sm:flex flex">
                     <svg class="w-5 inline-block" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -165,48 +165,34 @@
           </div>
           <button onclick="toggleText()" id="button" class="text-red-600 italic text-sm">See More</button>
       </div>
-    <div class="p-4">
+    <div class="">
         <div class="flex m-4">
             <div>
-                <svg class="w-6 h-6 dark:text-white mr-4" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5m-9-6h.008v.008H12v-.008zM12 15h.008v.008H12V15zm0 2.25h.008v.008H12v-.008zM9.75 15h.008v.008H9.75V15zm0 2.25h.008v.008H9.75v-.008zM7.5 15h.008v.008H7.5V15zm0 2.25h.008v.008H7.5v-.008zm6.75-4.5h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V15zm0 2.25h.008v.008h-.008v-.008zm2.25-4.5h.008v.008H16.5v-.008zm0 2.25h.008v.008H16.5V15z" stroke-linecap="round" stroke-linejoin="round"></path>
-                </svg>
+              <img class="w-6 m-2" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAABj0lEQVR4nO1YwU7CQBDd/8AABzWe9NTqzWTrReLH8RFcSAWBhJvlIhztemjskq4XvdpEmnJes1WJtqR2sGFLnJe8pFmS9+Z1Z6YJhCAQ28eNM20NnOmLYv/27lK3DhiJ6WQmEzqzZ906YKxMP6lbZy2W5+ZebBl2bBlRbJnyO9PG6d+LcvCrjhHF1OwtLk4PCLh4aoTrTCOaNVZn0OJBOtQIl/SsVjjAx5tfL+YdH2WM1Rk0AFiHml1IgEzbfNFp1jPGTqMODgDWoeYbIECecUMOr0cr06E9kpNmY4MAcB1SRgB1zePWVWKoqJ69k81aaAzUKSWAGjRlrt6gonredIg9oE4pAXSSYABrR26AcSGrSIIBON6ArEQLtTv9Hyz7nGEAjjcgK91CDL8DArdQLnCIOxUf4vauf8gYbiGBW+h/z0AbAwjcQrnQvS7Zn2fAFwvdxbI0/aD4n7suD3raC+YZ2oUDPDw+HTIuXitQtFR0eRDee8F+4QBJG83nNdcXXa3t5CfeNrh4BAKBINvCO+WE9Ir/r6VFAAAAAElFTkSuQmCC">
             </div>
-            <div class="text-red-600 font-bold">: Sun, Apr 9, 2023 </div>
+            <div class="text-green-600 font-bold m-2">: Sun, Apr 9, 2023 </div>
         </div>
         <div class="flex m-4">
             <div>
-                <svg class="w-6 h-6 dark:text-white mr-4" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round"></path>
-                </svg>
+                <img class="w-6 m-2" src="data:image/png;base64,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">
             </div>
-            <div class="text-red-600 font-bold">: 10:00 PM</div>
+            <div class="text-green-600 font-bold m-2">: 10:00 PM</div>
         </div>
         <div class="flex m-4">
             <div>
-                <svg class="w-6 h-6 dark:text-white mr-4" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" stroke-linecap="round" stroke-linejoin="round"></path>
-                    <path d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" stroke-linecap="round" stroke-linejoin="round"></path>
-                </svg>
+            <img class="w-6 m-2" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAADT0lEQVR4nO2X3UsUURjGX4uCUrspqIuCNAW7CAqhIs/sWJa3WUT/QEnSdWaIsEFBUOiMVkJQF3UhhTflBxVIfmzknlmFJLsI6aI7Q8ywcs8R841zdlFbd2Z2Z7ezS8wDDwyz877n+c2ec2YGwJcvX77+G6EOO5BAPRJ4gRp8QgI/pWPH4txFrIHtkG/CU1CIGlxHAj9QA3TxPBIIYiVshXwQarAHCYynEDzRE6hBSW7DEyhFDb56CB8zgemcQeAxKEYNPnoOvwrxAXUoUg9A4FbG4bUViBtqw+uwCzVYcAj0HAnocnELV0E1atDjAPELj8BOdQAELjuEb3Koa3aAaFAHoMFLuzufQm2vTW2/mvSxEJ9tQuiutQE4blM7pRIg+fxPYTeJ715J1wGoEhKY8wxwGLbZAMyq/AdCSUNUQXUKtSdsAEJq0sdCtNiE6HGtJdBnU9ui8jmwGwks2SzG5rTBCSyJnsoAZJjY67Hdnt4rdxsdiqTFtLG/8yh6KQ0vATSozdqrhAa1ygHiEINZCB/KSXgJUAUkYwDi/vD7txBOc9s9fF9Ow0uAAJQjAeYBgKMOFZAPQg1u5v03gJPwKGyxfcFL7i/iOwFyqeAkbm4PL1YalNebFm991floeDlQ4BpeXPO68+GQqDEorxc9RC8loY1Rtt+grMmgLGRQtmhaHNd6oumSK8DEtYa/akyLY6wXGzHD7KoYI6uhg4gb2iLsnAidOHCi772dw7kzZbbhv9eV4P3QrGMPU5qNGBY7i4gFGYVvH4vuMy027D7gqp91D+NyYOP6qaNvwO6nAyn3MYUpH2yzoqWewneEoyWGxafTGjDuSPDKOoBIsDHtPqaEYDOt49GytAHknPQyoMXx7rt5nDl/YCW8OBbnvPYzKBvyArDgdUDhx/2TyE8W42JNIT7pfe+5jxlbEwtpAwjqzAblYruUzrSPYfE36QOMRvd6XQNZNWUzYjNJG2ANxEDuANiIOcrKIROJvdgIs7psTKmUpwxlQ+0Rdjrj50CiOsZYhWGxRglDGc9iYCb2fNFbjAEq9GAMN7Vb/JAZ5hcMyu+YlHXJpzXlU2LtGBb7ZlL2W1gcy/UkfpPXsC6T8tvx2oOil5LQvnz58gXZ1h8JC/UEAA50vAAAAABJRU5ErkJggg==">
             </div>
-            <div class="font-bold">: Online</div>
+            <div class="font-bold m-2">: Online</div>
         </div>
         <div class="flex m-4">
-            <div>
-                <svg class="w-6 h-6 dark:text-white mr-4" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" stroke-linecap="round" stroke-linejoin="round"></path>
-                </svg>
+            <div class="mr-4">
+                Agenda:
             </div>
             <a href="www.sjdfhiaufhlsnf.pdf" class="underline">
                 www.sjdfhiaufhlsnf.pdf
             </a>
         </div>
         <div class="flex m-4">
-            <div>
-                <svg class="w-6 h-6 dark:text-white mr-4 mt-2" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L10.582 16.07a4.5 4.5 0 01-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 011.13-1.897l8.932-8.931zm0 0L19.5 7.125M18 14v4.75A2.25 2.25 0 0115.75 21H5.25A2.25 2.25 0 013 18.75V8.25A2.25 2.25 0 015.25 6H10" stroke-linecap="round" stroke-linejoin="round"></path>
-                </svg>
-            </div>
             <button class="h-8 px-2 m-2 text-green-700 transition-colors duration-500 border-solid border-green-700 border-2 rounded-lg focus:shadow-outline hover:bg-green-700 hover:text-white">Register</button>
         </div>
         <div class="font-bold m-4">Available Seats: 100 Seats</div>
