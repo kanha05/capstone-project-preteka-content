@@ -54,10 +54,22 @@
                         </div>
                         <img class=" md:w-6 md:h-6 sm:h-5 sm:w-5 h-4 w-4"
                             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAADu0lEQVR4nO2ZOWgVURSGJ0kR3CJok8U1kkIFl0axMQkWaiJoKdgmMaU2Ka1FwX3BEJN0aaLiErVTUNDKBdEqLoVauIFi8V6MfnLwf3h5ee/NvZMXnWh+GBjmnvOfMzPnnnvuuVE0gxmkB8Au4BLwDPgEjOmy+6ca2xmlEcAC4Avx+AosjNIG4IAcvAVsAJYAs4DZut+oMcOBKE0A5gDv5NzmEnLNkvkAzI3SAmC/HLvnIXtXsvuiNABYAbyWU+0e8u2SNZ0Vf8LBGqABqM57Ph84oyxjeABUePBVSNZguqeNK0+mWjZrJut8I/DeySCWZUYtVIC3evYNGADqAnjrgEHpIq574nYzmdluTOq8ZY/HIvrsfGkXZnRlIgO/bKwC7hfgHZNNwyPLZknID4vgVe4XK2yagE26qpI679ipcvia8myZbcOhUNJ1wDjw3VJf9JfAr7T7XaG2NkTxmt78eAKj9cBeoB8Y0dWvZ3UJ+E7Ilyu+CuulkAmcmIs0me2LFcO4XqYh8INkpB//F4CzEj4XYGQL8NF58WGgC2jTZfcXgKyzErcG8PdK74yPsKUyw54A53MZ6jKwtITscuCqk2laPW3skc6oj3CPhN9YhRkju9j58kc8F7JK4KjzJxo8qlzzxdDjm9buSGEoRnbA+fKxzue9RO5PnI+RHZKc+VQZsgLnVsTdJSbXuGJ+ma/zeeGUEUfBZGG25cOX4BUZ6JSyhci8AuPdGh8Odd7huCiOrgJj85zw7EhqYLRY+rJfX8x4AH+3OPqKLKZ+E7eEgZciWV5g7KbGtk6Cf7s4rhcJY8OLcrzAhPgDbmhs2yT428QxUmSfYXielN83hPamMoSAjphJbLWN4UJC/43D2iyGzphJ3BlK7JNG65w0OmGOeNrIiqO2bGlUi4zvQmaFGVqU/BaZ3zasSi0YPiUWsqpylxINKgdQeVDp6fwxZ8tYX+5SIrSYa3WKuaulwklhk/vyptMyFcWcdRoMvT7kzkvk/kRWK2y3U053a8JmnS/v5XyScjqXvjJxv7dAOJ3XpCwGG+sL5K2XLz+ANb5KV2TwhK+hvOzUpZfJbSn7VFvVJuA7KV8uhyit1Ub6b2/qW5xN/ZpQ5UMpaqscTEI8S02luMbWqkk4v9qjsfUwUWMrsLU4OEWtxXeJW4t5NUmx5u7pMjR3T5Vo7k6owaa6vb4jsL3eGKUB0/qAo8ARU/O0O2LKO+S7rQO9pWrRz9Z9eg/5/oljVoMdYqtoe6LdVEbXRz1L70H3DP5X/AT6o5UN0rX/AgAAAABJRU5ErkJggg==">
+                            <div class="dropdown">
+    <button class=" rounded inline-flex items-center">
 
-                        <img class=" md:w-6 md:h-6 sm:h-5 sm:w-5 h-4 w-4"
+      <img class=" md:w-6 md:h-6 sm:h-5 sm:w-5 h-4 w-4"
                             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAACX0lEQVR4nO2XTU8UQRCG54BeFBbDBdarAokHQeWMJMaLRtz/Akj0CHKAA8Fw5OMnaODEjmvikT+gcvPrZiAEZNUDPKbMu0lnme6eGTXGhDfpZNJvVXV1V1V3TZKc4X8CMAA8Al4Cb4GvGvadAlNA/99Y+BbQID/MwZt/YuFzwDJwIsO7wArwQKdxQcO+x4FVySCdZ0BH2cUvAa9k7AiYAbpy6HUBs0DTOY3uMjtvyMBnC0GJDVwH3svGa+B8EeVlKX4Eqhn8fTloCXio73sZclXgk2wtFUm4Ex37cAZvx+vDTIb8DYXj2L7zONAIGLOdG74DE0CfxqTm8JzEU3FpbPEBJ9tPJZyTlBMZnN0BhkYGVwH2xF8NOTAtoRUPb/E29GZwveIOPLpr4idDDqQSGvfw++L7PAln2Pfo1sTXQw7sSKg/4uCpXeiKNmxFwvsu5MCBhDo9/F0nCae066oW/yHujke3MxSiXA5IZiFQhvMBvVwO7ERCYHH8EnDAuNrvhCD1JaHVty4Tw3Ng1HmMbgMvxB177oJaKEfaa3m1bb7HqQBvGTmJaLI9bdy67w6JXkTAk9bOkwiADck+LnwRGfR8GmaduW3NjSYRAGOS3Xbm5qLH34J1MnqMmq3Hw2kyLiYRONm+6zxu35QbQzH9X1Ang57Sy0lJmK7zHC8WUexwQmENyUiJxYeAD7KRFm7NgG7Hiaae1EoOvYpibsduqBduydpOYsmp/z2V00Ng0HJCY1B1vu5ku+kslm5KXQDXgE3yI83V/RSF1bC6n7p+Rg413liJqUu6UtjwGZJ/iJ90ivkzFRnZFwAAAABJRU5ErkJggg==">
-                    </div>
+                        </button>
+    <ul class="dropdown-menu absolute hidden text-white bg-transparent ">
+      <li class=""><a class="rounded-t bg-transparent hover:text-green-600 py-2 -px-10 block whitespace-no-wrap" href="#">View profile</a></li>
+      <li class=""><a class="bg-transparent hover:text-green-600 py-2 -px-10 block whitespace-no-wrap" href="#">Edit profile</a></li>
+      <li class=""><a class="rounded-b bg-transparent hover:text-green-600 py-2 -px-10 block whitespace-no-wrap" href="#">Log out</a></li>
+    </ul>
+  </div>
+                        <!-- <img class=" md:w-6 md:h-6 sm:h-5 sm:w-5 h-4 w-4"
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAACX0lEQVR4nO2XTU8UQRCG54BeFBbDBdarAokHQeWMJMaLRtz/Akj0CHKAA8Fw5OMnaODEjmvikT+gcvPrZiAEZNUDPKbMu0lnme6eGTXGhDfpZNJvVXV1V1V3TZKc4X8CMAA8Al4Cb4GvGvadAlNA/99Y+BbQID/MwZt/YuFzwDJwIsO7wArwQKdxQcO+x4FVySCdZ0BH2cUvAa9k7AiYAbpy6HUBs0DTOY3uMjtvyMBnC0GJDVwH3svGa+B8EeVlKX4Eqhn8fTloCXio73sZclXgk2wtFUm4Ex37cAZvx+vDTIb8DYXj2L7zONAIGLOdG74DE0CfxqTm8JzEU3FpbPEBJ9tPJZyTlBMZnN0BhkYGVwH2xF8NOTAtoRUPb/E29GZwveIOPLpr4idDDqQSGvfw++L7PAln2Pfo1sTXQw7sSKg/4uCpXeiKNmxFwvsu5MCBhDo9/F0nCae066oW/yHujke3MxSiXA5IZiFQhvMBvVwO7ERCYHH8EnDAuNrvhCD1JaHVty4Tw3Ng1HmMbgMvxB177oJaKEfaa3m1bb7HqQBvGTmJaLI9bdy67w6JXkTAk9bOkwiADck+LnwRGfR8GmaduW3NjSYRAGOS3Xbm5qLH34J1MnqMmq3Hw2kyLiYRONm+6zxu35QbQzH9X1Ang57Sy0lJmK7zHC8WUexwQmENyUiJxYeAD7KRFm7NgG7Hiaae1EoOvYpibsduqBduydpOYsmp/z2V00Ng0HJCY1B1vu5ku+kslm5KXQDXgE3yI83V/RSF1bC6n7p+Rg413liJqUu6UtjwGZJ/iJ90ivkzFRnZFwAAAABJRU5ErkJggg==">
+                     -->
+                        </div> 
                 </div>
                 <div class="flex md:ml-3 sm:ml-0.5 ml-0.5 mt-3">
                     <a href="detail"><button
