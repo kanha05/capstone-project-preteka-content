@@ -2,7 +2,7 @@
 @section('content')
 <body>
     <div class="w-full lg:h-screen md:overflow-auto">
-        <div class="w-5/6 lg:h-screen md:overflow-auto flex mx-auto  border-t-2 border-gray-400">
+        <div class="w-5/6 lg:h-screen md:overflow-auto flex mx-auto  border-t-2 border-gray-400 ">
 
             <div class="w-32 drop-shadow-lg  bg-white ">
                 <div class="w-[100px] h-[100px] mx-auto   ">
