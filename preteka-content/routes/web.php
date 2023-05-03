@@ -28,6 +28,7 @@ Route::get('/upload', function () {
     return view('frontend.upload');
 });
 Route::view('/payment','payment');
+Route::view('/change','changepassword');
 Route::get('/pf-page', function () {
     return view('pf-page');
 });
