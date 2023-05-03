@@ -59,3 +59,9 @@ Route::get('/verifypassword', function () {
 Route::get('/resetpassword', function () {
     return view('resetpassword');
 });
+Route::get('/sharelink', function () {
+    return view('sharelink');
+});
+Route::get('/edit_pf', function () {
+    return view('edit_pf');
+});
