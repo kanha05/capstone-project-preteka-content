@@ -49,3 +49,12 @@ Route::get('/aboutus', function () {
 Route::get('/home', function () {
     return view('frontend.homepage');
 });
+Route::get('/forgotpassword', function () {
+    return view('forgotpassword');
+});
+Route::get('/verifypassword', function () {
+    return view('verifypassword');
+});
+Route::get('/resetpassword', function () {
+    return view('resetpassword');
+});
