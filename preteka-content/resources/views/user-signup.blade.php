@@ -15,49 +15,35 @@
         <div class="relative flex flex-col m-6 space-y-8 bg-white shadow-2xl rounded-2xl md:flex-row md:space-y-0">
             <!-- left side -->
             <div class="flex flex-col justify-center p-8 md:p-14">
+            <div class=" ml-72 -mt-5">
+        <img class=" lg:ml-12 mg:ml-10 sm:ml-8 ml-6 " src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAABo0lEQVR4nO2WvU4CQRSFt113ztksiYW/sbTQCjrxAUzU+BwK+Cx2Go2FpT3qeygzCw+gwQ6xE4OZDRBUdnaWhUDBTW4ymWTyzT1zf8ZxFjZv9hIEm4osS+BJkqECPrXrdW+v9BwEGxMD1l13TQFXkuwosmtySX5L4F75/lYmaE2IEwW0k4D/LgB8KOB4LKgCznUEaaHD0SugkjpSmQH6B24XeSOXWx9HXqPsrruaCJbk7aSgQ36dWDJx2RsKsafIgiSbIyRtKt/Ph0IUYyTvaCVjwbpOY2/t+/lIEc/bGYbrtd7rnS8Y3vssXmbg0XBwAOjDR+0Z5K6aIq4nZOlvkD20qztcPNgimyX5rjxvt38mFGJbkW+JCQa0pwF+tSir1vxJLWeVXJIsTbGcTmPBep4aGkjR2EDIQk2I/Rjwl7GB9G59k5ihKV0Cl47N4I8a++SgLbm0tOLYWAgc2Pw4LMfikRV0IDlQyfwRIMupoH3TQ3wc2SN5gUMnizWEWJbkhc5MyyjvrN/UxnQ56NEmyQdJqqi9Au1oTVZ1nSaWzMKcGdgPOnZMCze6l4MAAAAASUVORK5CYII=">
+
+        </div>
                 <span class="mb-3 text-4xl font-bold">Create an account</span>
                 <span class="font-light text-gray-400 mb-5">
-                    Welcom to ព្រឹត្តិការណ៍-Content
+                    Welcome to ព្រឹត្តិការណ៍-Content
                 </span>
-                <div class="py-3">
-                    <span class="mb-2 text-md">Email address</span>
+                <div class="py-4">
                     <input type="text"
-                        class="w-full p-2 border border-gray-300 rounded-md placeholder:font-light placeholder:text-gray-500"
-                        name="email" id="email" />
+                        class="p-2 pl-7 w-full text-xl bg-gray-300 placeholder:italic rounded-lg placeholder:text-slate-600 placeholder-gray-500 outline-0 dark:text-black"
+                        name="username" id="username" placeholder="username"/>
                 </div>
-                <div class="py-3">
-                    <span class="mb-2 text-md">Username</span>
+                <div class="py-4">
                     <input type="text"
-                        class="w-full p-2 border border-gray-300 rounded-md placeholder:font-light placeholder:text-gray-500"
-                        name="username" id="username" />
+                        class="p-2 pl-7 w-full text-xl bg-gray-300 placeholder:italic rounded-lg placeholder:text-slate-600 placeholder-gray-500 outline-0 dark:text-black"
+                        name="email" id="email" placeholder="Email"/>
                 </div>
-                
-                <div class="py-3">
-                    <span class="mb-2 text-md">Set password</span>
+                <div class="py-4">
                     <input type="password" name="pass" id="pass"
-                        class="w-full p-2 border border-gray-300 rounded-md placeholder:font-light placeholder:text-gray-500" />
+                        class="p-2 pl-7 w-full text-xl bg-gray-300 placeholder:italic rounded-lg placeholder:text-slate-600 placeholder-gray-500 outline-0 dark:text-black" placeholder="Set password"/>
                 </div>
-
-                <div class="py-3">
-                    <span class="mb-2 text-md">Confirm password</span>
+                <div class="py-4">
                     <input type="password" name="pass" id="pass"
-                        class="w-full p-2 border border-gray-300 rounded-md placeholder:font-light placeholder:text-gray-500" />
+                        class="p-2 pl-7 w-full text-xl bg-gray-300 placeholder:italic rounded-lg placeholder:text-slate-600 placeholder-gray-500 outline-0 dark:text-black" placeholder="Confirm password"/>
                 </div>
-                <!-- <div class="flex justify-between w-full py-4">
-                    <div class="mr-24">
-                        <input type="checkbox" name="ch" id="ch" class="mr-2" />
-                        <span class="text-md">Remember for 30 days</span>
-                    </div>
-                    <span class="font-bold text-md">Forgot password</span>
-                </div> -->
                 <button
-                    class="w-full bg-black text-white p-2 rounded-lg mb-6 hover:bg-white hover:text-black hover:border hover:border-gray-300">
+                    class="w-full text-md p-2 mb-6 text-white bg-green-600 transition-colors duration-500 border-solid border-green-600 border rounded-lg focus:ring-green-400 hover:bg-green-700 hover:text-white">
                     Create account
-                </button>
-                <button
-                    class="w-full border border-gray-300 text-md p-2 rounded-lg mb-6 hover:bg-black hover:text-white">
-                    <img src="google.svg" alt="img" class="w-6 h-6 inline mr-2" />
-                    Sign in with Google
                 </button>
                 <!-- <div class="text-center text-gray-400">
                     Dont'have an account?

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     @vite('resources/css/app.css')
     @vite('resources/js/app.js')
 </head>
+
 <body class="font-poppins">
     <main>
         <section id="profile">
@@ -54,8 +56,7 @@
                     <div class=" flex flex-row-reverse lg:mx-20 md:mx-16 sm:mx-8">
                         <!-- Edit account -->
                         <div>
-                            <button
-                                class=" rounded-md outline outline-green-500 lg:w-36 lg:h-9 w-24 h-7 m-1 text-xs lg:text-sm">
+                            <button class=" border-green-600 border rounded-lg focus:ring-green-400 hover:bg-green-700 hover:text-white lg:w-36 lg:h-9 w-24 h-8 m-1 text-xs lg:text-sm">
                                 <div class=" flex place-content-center">
                                     <img class=" w-6 h-6 m-1"
                                         src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAzUlEQVR4nGNgQAP/V4Wy/V3r2Pl3ndOzv2sdn/5d59gBEmMgFvxd59jxb53Tf2QMEiPBAKdnmAY4PSfegLWOT7G44AllXljr1E60Af9BgbjOsQMcgOQE4sCAVVf+sy18/Llz4ZPPzxY9+fIfG1745PPThU8+d4DUYhiw8MnnDnQNcbPu/o+ccgebQR0fGwUbPjYKINLGQiw2S/ofA2N08dMbaj5/ahL8D8JwQxZhcTI2A05tbgZrRGCBeqINwKmZGAPwaiYGUKQZ1QBMzQDQ+2zcIvymWAAAAABJRU5ErkJggg==">
@@ -64,11 +65,9 @@
                                 </div>
                             </button>
                         </div>
-
                         <!-- Upload the new event -->
                         <div>
-                            <button
-                                class=" rounded-md outline outline-green-500 bg-green-500 lg:w-36 lg:h-9 w-24 h-7 m-1 hover:bg-green-700 text-xs lg:text-sm">
+                            <button class=" border-green-600 border rounded-lg focus:ring-green-400 hover:bg-green-700 hover:text-white bg-green-600 lg:w-36 lg:h-9 w-24 h-8 m-1  text-xs lg:text-sm">
                                 Upload new event</button>
                         </div>
 
@@ -226,22 +225,25 @@
                     <!-- start right container -->
                     <div class=" lg:w-2/3 bg-slate-100 dark:bg-slate-950 rounded-md m-3">
                         <!-- start event post header -->
-                        <div class=" flex">
+                        <h1 class=" font-bold lg:text-2xl text-center md:text-xl text-lg py-3">Event</h1>
+                        
+                        <!-- <div class=" flex">
                             <div>
                                 <h1 class=" font-bold lg:text-2xl text-center md:text-xl text-lg py-3">Event</h1>
-                            </div>
+                            </div> -->
 
-                            <div class=" flex justify-items-end">
+                            <!-- <div class=" flex justify-items-end"> --> 
 
-                                <button class="btn-back-to-top">
+                                <!-- <button class="btn-back-to-top">
                                     <svg class=" w-8 " fill="none" stroke="currentColor" stroke-width="1.5"
                                         viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                                         <path stroke-linecap="round" stroke-linejoin="round"
                                             d="M4.5 15.75l7.5-7.5 7.5 7.5"></path>
                                     </svg>
-                                </button>
+                                </button> -->
 
-                                <button>
+<!-- filter & booking history -->
+                                <!-- <button>
                                     <svg class=" w-8" fill="none" stroke="currentColor" stroke-width="1.5"
                                         viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                                         <path stroke-linecap="round" stroke-linejoin="round"
@@ -255,136 +257,199 @@
                                     <path stroke-linecap="round" stroke-linejoin="round"
                                         d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25">
                                     </path>
-                                </svg>
-                            </div>
+                                </svg> -->
 
-                        </div>
+                            <!-- </div> -->
+
+                        <!-- </div> -->
                         <!-- end event post header -->
                         <hr class="h-px my-0.5 bg-green-500 border-0">
 
                         <!-- start event post container -->
-                        <div class=" m-4 p-3 border border-gray-500 shadow-slate-400 shadow-md ">
+                        
+                            <div class=" m-4 p-3 border border-gray-500 shadow-slate-400 shadow-md ">
 
-                            <div class=" flex">
-                                <div>
-                                    <img src="img/pf1.png" alt="#"
-                                        class=" w-16 rounded-full outline outline-gray-200 object-cover mx-3 mb-3">
-                                </div>
-                                <div class=" pl-2">
-                                    <!-- Username -->
-                                    <h1 class=" font-bold lg:text-xl md:text-md text-sm"> @Kanha23</h1>
-                                    <!-- date -->
-                                    <p class=" text-gray-400 font-light "> April, 26 2023</p>
-
-
-                                </div>
-                                <div class=" place-content-end">
-                                    <svg class=" w-8 " fill="none" stroke="currentColor" stroke-width="1.5"
-                                        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M6.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM12.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM18.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0z">
-                                        </path>
-                                    </svg>
-                                </div>
-
-                            </div>
-
-                            <!--  -->
-                            <div class="lg:flex md:flex space-x-4">
-                                <!-- event poster -->
-                                <div class=" lg:basis-1/2 md:basis-1/2 bg-slate-300 dark:bg-slate-900">
-                                    <img src="img/event-poster1.jpg">
-                                    <div class=" flex lg:mt-5 md:mt-5 sm:mt-3 mt-3 place-content-center align-middle">
-                                        <div class=" flex mx-2">
-                                            <img class=" w-8 h-8"
-                                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAABCUlEQVR4nO2ZPW7CUBCEN5ESiSpVyrQUtG7Q2zdd7kUJuUFyAsvb5wJR2hSuaCkgEacwMg2QP8mAsl5lPmlKrJ3dGckyIoQQ0ktGNrpGpQ+5Su8wbZy0gqVZO0tnA+0PHQdvDpVmnQ04b77ZV7b0ccQF/AfHnmgAvIAyQp34HJn6df2nwrlLHN4AWGJlif93B+roBsASK0vs2gH31+k6ugGwxMoLdMI7MmAHzH/r2GkZOkLZ0jSqgdUJnxZ/eXCli1zmofQZ/HTOSucocSd9B99n8S1bvpUI4OvmX+6tuJEo4GDz+jy28UAigV1hy+KpuJJoYBub9CgTuZSIoP1XpJEL7zkIIUR6zQbP5nJiMZY/owAAAABJRU5ErkJggg==">
-                                            <p class=" text-sm mt-1">Comment</p>
-                                        </div>
-                                        <div>
-
-                                        </div>
-                                        <div class=" flex mx-2">
-                                            <img class=" w-8 h-8"
-                                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAABUElEQVR4nOWUsUoDQRCGrxIECy0MaGcl+ATJZYZrZoxg7QOIvoQPID6GcMmMcI22VoIBFbXSwthK7AXTK7vZO8zlYs7Vg4ADU+wO83+7M7MbBP/aSOCSFO85btQqAbDALSt+kMBjJZCtBJZZ4cFCFJ5abVyZfci2wBIJ7LLCGSn2SGFgxDMXvPMSrif1eVY8YIG3EcG8TwKQ4A0rXBXGNFw1iakICZyT4H6rHa5zjGu2ydOanSYXiZPAy7DG2CNpQpYTN2qlxCcBbFnSkwteRMfR4kiOi5Ua0yKArbmbjry4i1+Xfmh5gJmWtKFfy+JtecBwFNE29NfihQDFU7vXwb1KACz4bNZmFCsCwLtZR0m0UA1AsWu+Yw+drvGpgL86aGYs+GoCmycYBp7GHWi6R9kfDyocffuJ6Y/8cAywk2zMWYi7iZcL9o240fKtwuzZJ8HuOy9uoNT3AAAAAElFTkSuQmCC">
-                                            <p class=" text-sm mt-1">Share</p>
-                                        </div>
+                                <div class=" flex">
+                                    <div>
+                                        <img src="img/pf1.png" alt="#"
+                                            class=" w-16 rounded-full outline outline-gray-200 object-cover mx-2 mb-2">
                                     </div>
+                                    <div class=" mt-1">
+                                        <!-- Username -->
+                                        <h1 class=" font-bold lg:text-lg md:text-md text-sm "> @Kanha23</h1>
+                                        <!-- date -->
+                                        <p class=" text-gray-400 font-light text-xs "> April, 26 2023</p>
 
+
+                                    </div>
+                                    
+                                    <div class="dropdown">
+                            <button class=" rounded inline-flex items-center">
+
+                            <svg class=" w-8 " fill="none" stroke="currentColor" stroke-width="1.5"
+                                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M6.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM12.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM18.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0z">
+                                            </path>
+                                        </svg>
+                                    </button>
+                            <ul class="dropdown-menu absolute hidden bg-green-200 px-3 py-2 -mt-3">
+                                <li class=""><a
+                                        class="rounded-t bg-transparent lg:text-sm md:text-xs text-xs hover:text-green-600  block whitespace-no-wrap"
+                                        href="./pf-page">Edit post</a></li>
+                                <li class=""><a
+                                        class="bg-transparent lg:text-sm md:text-xs text-xs hover:text-green-600  block whitespace-no-wrap"
+                                        href="#">Delete</a></li>
+                            </ul>
+                        </div>
 
                                 </div>
+
                                 <!--  -->
-                                <!-- event post info -->
-                                <div class=" lg:basis-1/2 md:basis-1/2 mt-3">
-                                    <!-- title -->
-                                    <p class=" font-bold text-sm">Explore, learn how to start technology company</p>
-                                    <!-- description -->
-                                    <p class=" text-sm line-clamp-2">At Innovation Festival you will learn and connect
-                                        with experienced researchers, developers, and industry leaders in a
-                                        community-based way.</p>
+                                <div class="lg:flex md:flex space-x-4">
+                                    <!-- event poster -->
+                                    <div class=" lg:basis-1/2 md:basis-1/2 bg-slate-300 dark:bg-slate-900">
+                                    <a href="./detail"> 
+                                        <img src="img/event-poster1.jpg">
+                                        </a>
+                                        <div
+                                            class=" flex lg:mt-5 md:mt-5 sm:mt-3 mt-3 place-content-center align-middle">
+                                            <div class=" flex mx-2">
+                                                <!-- <img class=" w-8 h-8"
+                                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAABCUlEQVR4nO2ZPW7CUBCEN5ESiSpVyrQUtG7Q2zdd7kUJuUFyAsvb5wJR2hSuaCkgEacwMg2QP8mAsl5lPmlKrJ3dGckyIoQQ0ktGNrpGpQ+5Su8wbZy0gqVZO0tnA+0PHQdvDpVmnQ04b77ZV7b0ccQF/AfHnmgAvIAyQp34HJn6df2nwrlLHN4AWGJlif93B+roBsASK0vs2gH31+k6ugGwxMoLdMI7MmAHzH/r2GkZOkLZ0jSqgdUJnxZ/eXCli1zmofQZ/HTOSucocSd9B99n8S1bvpUI4OvmX+6tuJEo4GDz+jy28UAigV1hy+KpuJJoYBub9CgTuZSIoP1XpJEL7zkIIUR6zQbP5nJiMZY/owAAAABJRU5ErkJggg==">
+                                            <p class=" text-sm mt-1">Comment</p> -->
+                                                <!-- <div class="flex"> -->
 
-                                    <div class=" mt-2">
-                                        <div class=" flex ">
-                                            <img class=" w-6 h-6 m-1"
-                                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAABj0lEQVR4nO1YwU7CQBDd/8AABzWe9NTqzWTrReLH8RFcSAWBhJvlIhztemjskq4XvdpEmnJes1WJtqR2sGFLnJe8pFmS9+Z1Z6YJhCAQ28eNM20NnOmLYv/27lK3DhiJ6WQmEzqzZ906YKxMP6lbZy2W5+ZebBl2bBlRbJnyO9PG6d+LcvCrjhHF1OwtLk4PCLh4aoTrTCOaNVZn0OJBOtQIl/SsVjjAx5tfL+YdH2WM1Rk0AFiHml1IgEzbfNFp1jPGTqMODgDWoeYbIECecUMOr0cr06E9kpNmY4MAcB1SRgB1zePWVWKoqJ69k81aaAzUKSWAGjRlrt6gonredIg9oE4pAXSSYABrR26AcSGrSIIBON6ArEQLtTv9Hyz7nGEAjjcgK91CDL8DArdQLnCIOxUf4vauf8gYbiGBW+h/z0AbAwjcQrnQvS7Zn2fAFwvdxbI0/aD4n7suD3raC+YZ2oUDPDw+HTIuXitQtFR0eRDee8F+4QBJG83nNdcXXa3t5CfeNrh4BAKBINvCO+WE9Ir/r6VFAAAAAElFTkSuQmCC">
-                                            <p class=" text-green-600 md:text-sm text-xs mt-1 md:mt-2 lg:mt-2">
-                                                : Sun, Apr 9, 2023 10:00 PM
-                                            </p>
+                                                <div class="dropdown ">
+                                                    <button class=" rounded inline-flex items-center">
+
+                                                        <img class=" w-8 h-8"
+                                                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAABCUlEQVR4nO2ZPW7CUBCEN5ESiSpVyrQUtG7Q2zdd7kUJuUFyAsvb5wJR2hSuaCkgEacwMg2QP8mAsl5lPmlKrJ3dGckyIoQQ0ktGNrpGpQ+5Su8wbZy0gqVZO0tnA+0PHQdvDpVmnQ04b77ZV7b0ccQF/AfHnmgAvIAyQp34HJn6df2nwrlLHN4AWGJlif93B+roBsASK0vs2gH31+k6ugGwxMoLdMI7MmAHzH/r2GkZOkLZ0jSqgdUJnxZ/eXCli1zmofQZ/HTOSucocSd9B99n8S1bvpUI4OvmX+6tuJEo4GDz+jy28UAigV1hy+KpuJJoYBub9CgTuZSIoP1XpJEL7zkIIUR6zQbP5nJiMZY/owAAAABJRU5ErkJggg==">
+                                                        <p class=" text-sm mt-1">Comment</p>
+                                                    </button>
+
+                                                    <div
+                                                        class="dropdown-menu absolute hidden bg-green-200 rounded-md sm:-ml-16 -ml-16">
+                                                        <div class="flex">
+                                                            <img src="https://eitrawmaterials.eu/wp-content/uploads/2016/09/person-icon.png"
+                                                                alt="" class="rounded-full w-8 h-8 ml-1 mt-1">
+                                                            <input
+                                                                class="m-1 px-4 bg-gray-300 placeholder:italic rounded-lg placeholder:text-slate-600 placeholder-gray-500 outline-0 dark:text-black"
+                                                                type="text" name="" placeholder="Write a comment">
+                                                            <div
+                                                                class="h-6 px-1 m-2 border-solid rounded-lg bg-green-600 text-white cursor-pointer transition-colors duration-500 hover:bg-green-700 sm:flex flex">
+                                                                <svg class="w-5 inline-block" aria-hidden="true"
+                                                                    fill="none" stroke="currentColor" stroke-width="1.5"
+                                                                    viewBox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path
+                                                                        d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5"
+                                                                        stroke-linecap="round" stroke-linejoin="round">
+                                                                    </path>
+                                                                </svg>
+                                                                <span class="mt-0.5">Post</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+
+
+                                                </div>
+                                            </div>
+                                            <div>
+
+                                            </div>
+                                            <div class=" flex mx-2">
+                                                <a href="" class="flex mx-2">
+                                                <img class=" w-8 h-8"
+                                                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAABUElEQVR4nOWUsUoDQRCGrxIECy0MaGcl+ATJZYZrZoxg7QOIvoQPID6GcMmMcI22VoIBFbXSwthK7AXTK7vZO8zlYs7Vg4ADU+wO83+7M7MbBP/aSOCSFO85btQqAbDALSt+kMBjJZCtBJZZ4cFCFJ5abVyZfci2wBIJ7LLCGSn2SGFgxDMXvPMSrif1eVY8YIG3EcG8TwKQ4A0rXBXGNFw1iakICZyT4H6rHa5zjGu2ydOanSYXiZPAy7DG2CNpQpYTN2qlxCcBbFnSkwteRMfR4kiOi5Ua0yKArbmbjry4i1+Xfmh5gJmWtKFfy+JtecBwFNE29NfihQDFU7vXwb1KACz4bNZmFCsCwLtZR0m0UA1AsWu+Yw+drvGpgL86aGYs+GoCmycYBp7GHWi6R9kfDyocffuJ6Y/8cAywk2zMWYi7iZcL9o240fKtwuzZJ8HuOy9uoNT3AAAAAElFTkSuQmCC">
+                                                <p class=" text-sm mt-1">Share</p>
+                                                </a>
+                                            </div>
                                         </div>
 
-                                        <div class=" flex">
-                                            <img class=" w-6 h-6 m-1"
-                                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAADT0lEQVR4nO2X3UsUURjGX4uCUrspqIuCNAW7CAqhIs/sWJa3WUT/QEnSdWaIsEFBUOiMVkJQF3UhhTflBxVIfmzknlmFJLsI6aI7Q8ywcs8R841zdlFbd2Z2Z7ezS8wDDwyz877n+c2ec2YGwJcvX77+G6EOO5BAPRJ4gRp8QgI/pWPH4txFrIHtkG/CU1CIGlxHAj9QA3TxPBIIYiVshXwQarAHCYynEDzRE6hBSW7DEyhFDb56CB8zgemcQeAxKEYNPnoOvwrxAXUoUg9A4FbG4bUViBtqw+uwCzVYcAj0HAnocnELV0E1atDjAPELj8BOdQAELjuEb3Koa3aAaFAHoMFLuzufQm2vTW2/mvSxEJ9tQuiutQE4blM7pRIg+fxPYTeJ715J1wGoEhKY8wxwGLbZAMyq/AdCSUNUQXUKtSdsAEJq0sdCtNiE6HGtJdBnU9ui8jmwGwks2SzG5rTBCSyJnsoAZJjY67Hdnt4rdxsdiqTFtLG/8yh6KQ0vATSozdqrhAa1ygHiEINZCB/KSXgJUAUkYwDi/vD7txBOc9s9fF9Ow0uAAJQjAeYBgKMOFZAPQg1u5v03gJPwKGyxfcFL7i/iOwFyqeAkbm4PL1YalNebFm991floeDlQ4BpeXPO68+GQqDEorxc9RC8loY1Rtt+grMmgLGRQtmhaHNd6oumSK8DEtYa/akyLY6wXGzHD7KoYI6uhg4gb2iLsnAidOHCi772dw7kzZbbhv9eV4P3QrGMPU5qNGBY7i4gFGYVvH4vuMy027D7gqp91D+NyYOP6qaNvwO6nAyn3MYUpH2yzoqWewneEoyWGxafTGjDuSPDKOoBIsDHtPqaEYDOt49GytAHknPQyoMXx7rt5nDl/YCW8OBbnvPYzKBvyArDgdUDhx/2TyE8W42JNIT7pfe+5jxlbEwtpAwjqzAblYruUzrSPYfE36QOMRvd6XQNZNWUzYjNJG2ANxEDuANiIOcrKIROJvdgIs7psTKmUpwxlQ+0Rdjrj50CiOsZYhWGxRglDGc9iYCb2fNFbjAEq9GAMN7Vb/JAZ5hcMyu+YlHXJpzXlU2LtGBb7ZlL2W1gcy/UkfpPXsC6T8tvx2oOil5LQvnz58gXZ1h8JC/UEAA50vAAAAABJRU5ErkJggg==">
-                                            <p class=" text-xs md:text-sm font-normal mt-1 md:mt-2 lg:mt-2">: online</p>
-                                        </div>
 
-                                        <div class=" flex">
-                                            <img class=" w-6 h-6 m-1"
-                                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAACzUlEQVR4nO2V30tTYRjHDwRB4HWXXfVndFkzprWEBhEEmeR0us0lxoza2Zw/lkOFsDshiNlQwzHzjDnT2pnnTNuULvrplYWCF4ZpYWZz33jf5X60c3acSyHYA9+r8zzf7+c85907hilVqf7HMnU8bzPYAusNVi7RaOUSRltgrbl9quVIwpvsQaHByoHI1BZEi5NHa7cAC1Wk41DDzY5J2154c8c0Wl1ijiz3hcqiQhCuPIOwehm8ahe8Ko6Zi+8QvnaKPDPaJ77svblUOAVwidNKPvLh4oXTCKl+IXQW4FXA7FUgdhNYqJvFsPZYo9WfIAB07TIArS5xU8knz9tXPKVDoXNAtBqYr08rqlM3skkAS7dsODkLG0o+8gAh9Vs6OKPJHkrqltGW/ATkwMluoFucUvLJtwEvHRQv5w5GdWqzY9pKAG47Q7IAd1xChZKPLIDL+7F/N3QeEC5lDa3OOTa6xrc1eF130tHj/WSySx9C9yNPmPT0eN/35vORDNcPIXLdDfSNLeIrX43vc03YjFoQm3kCZ2ALk1M+7MQMP4lRYOgB+vp9YHt5qoGBUXwIttOQ7Zgp3j+2APvIItZe5vrY/CDKvi+MI+gk4foh+jBHwovHSMxekfqekkrM60EgiGedjCfLIX1f1HqwTpotY7mNDwOfAb4cePXXaVbQVtQMg+cbhbD4JAD8oPcFrWo3EqSR5XIbl/i7oAdqXlcQAJFv4hkFMIxIAmwm0xmGIU1EUqva4av+ANQXrCWxk/rWeqS99wVA139AgB9RM/W9MagAUDOIOGm8Ny4BQG+0gwEQyb0c68dyCmDvJ2gePToAG4euNMAwyghEjRtxApG5iRQA+TP5FwAcVlgOTnYYx1MA+SoFENn/PZCpfYXkK/Dl8SyIQjYR060wxRYETSQFUKiEKrF4gDfaMgqRuQlFqXbpjKg9UTRAqUrFHHL9BhuJ+qS8IRA/AAAAAElFTkSuQmCC">
-                                            <p class=" text-xs md:text-sm font-normal mt-1 md:mt-2 lg:mt-2">: 100 seats
-                                            </p>
-                                        </div>
 
-                                        <div class=" flex">
-                                            <p class=" font-semibold text-xs md:text-sm lg:text-base m-0.5">Agenda</p>
-                                            <a href="#"
-                                                class=" hover:text-green-500 text-xs md:text-sm lg:text-base m-0.5">:
-                                                www.djfskaljfk.pdf</a>
+                                    </div>
+                                    <!--  -->
+                                    <!-- event post info -->
+                                    <div class=" lg:basis-1/2 md:basis-1/2 mt-3">
+                                        <!-- title -->
+                                        <p class=" font-bold text-sm">Explore, learn how to start technology company</p>
+                                        <!-- description -->
+                                        <p class=" text-sm line-clamp-2">At Innovation Festival you will learn and
+                                            connect
+                                            with experienced researchers, developers, and industry leaders in a
+                                            community-based way.</p>
 
-                                        </div>
-
-                                        <div class=" flex">
-                                            <div class=" mt-2 flex">
-                                                <p class=" font-semibold text-xs md:text-sm lg:text-base m-1 ">Price:
+                                        <div class=" mt-2">
+                                            <div class=" flex ">
+                                                <img class=" w-6 h-6 m-1"
+                                                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAABj0lEQVR4nO1YwU7CQBDd/8AABzWe9NTqzWTrReLH8RFcSAWBhJvlIhztemjskq4XvdpEmnJes1WJtqR2sGFLnJe8pFmS9+Z1Z6YJhCAQ28eNM20NnOmLYv/27lK3DhiJ6WQmEzqzZ906YKxMP6lbZy2W5+ZebBl2bBlRbJnyO9PG6d+LcvCrjhHF1OwtLk4PCLh4aoTrTCOaNVZn0OJBOtQIl/SsVjjAx5tfL+YdH2WM1Rk0AFiHml1IgEzbfNFp1jPGTqMODgDWoeYbIECecUMOr0cr06E9kpNmY4MAcB1SRgB1zePWVWKoqJ69k81aaAzUKSWAGjRlrt6gonredIg9oE4pAXSSYABrR26AcSGrSIIBON6ArEQLtTv9Hyz7nGEAjjcgK91CDL8DArdQLnCIOxUf4vauf8gYbiGBW+h/z0AbAwjcQrnQvS7Zn2fAFwvdxbI0/aD4n7suD3raC+YZ2oUDPDw+HTIuXitQtFR0eRDee8F+4QBJG83nNdcXXa3t5CfeNrh4BAKBINvCO+WE9Ir/r6VFAAAAAElFTkSuQmCC">
+                                                <p class=" text-green-600 md:text-sm text-xs mt-1 md:mt-2 lg:mt-2">
+                                                    : Sun, Apr 9, 2023 10:00 PM
                                                 </p>
-                                                <p class=" font-bold text-red-600 text-sm md:text-sm lg:text-base m-1">
-                                                    $0.00</p>
-                                            </div>
-                                            <div class="flex ml-3">
-                                                <a href="detail"><button
-                                                        class="h-8 px-2 m-2 text-white bg-green-600 transition-colors duration-500 border-solid border-green-600 border-2 rounded-lg focus:ring-green-400 hover:bg-green-700 hover:text-white">
-                                                        Register</button></a>
                                             </div>
 
-                                        </div>
-                                        <!-- <div class=" pl-10 mb-3">
+                                            <div class=" flex">
+                                                <img class=" w-6 h-6 m-1"
+                                                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAADT0lEQVR4nO2X3UsUURjGX4uCUrspqIuCNAW7CAqhIs/sWJa3WUT/QEnSdWaIsEFBUOiMVkJQF3UhhTflBxVIfmzknlmFJLsI6aI7Q8ywcs8R841zdlFbd2Z2Z7ezS8wDDwyz877n+c2ec2YGwJcvX77+G6EOO5BAPRJ4gRp8QgI/pWPH4txFrIHtkG/CU1CIGlxHAj9QA3TxPBIIYiVshXwQarAHCYynEDzRE6hBSW7DEyhFDb56CB8zgemcQeAxKEYNPnoOvwrxAXUoUg9A4FbG4bUViBtqw+uwCzVYcAj0HAnocnELV0E1atDjAPELj8BOdQAELjuEb3Koa3aAaFAHoMFLuzufQm2vTW2/mvSxEJ9tQuiutQE4blM7pRIg+fxPYTeJ715J1wGoEhKY8wxwGLbZAMyq/AdCSUNUQXUKtSdsAEJq0sdCtNiE6HGtJdBnU9ui8jmwGwks2SzG5rTBCSyJnsoAZJjY67Hdnt4rdxsdiqTFtLG/8yh6KQ0vATSozdqrhAa1ygHiEINZCB/KSXgJUAUkYwDi/vD7txBOc9s9fF9Ow0uAAJQjAeYBgKMOFZAPQg1u5v03gJPwKGyxfcFL7i/iOwFyqeAkbm4PL1YalNebFm991floeDlQ4BpeXPO68+GQqDEorxc9RC8loY1Rtt+grMmgLGRQtmhaHNd6oumSK8DEtYa/akyLY6wXGzHD7KoYI6uhg4gb2iLsnAidOHCi772dw7kzZbbhv9eV4P3QrGMPU5qNGBY7i4gFGYVvH4vuMy027D7gqp91D+NyYOP6qaNvwO6nAyn3MYUpH2yzoqWewneEoyWGxafTGjDuSPDKOoBIsDHtPqaEYDOt49GytAHknPQyoMXx7rt5nDl/YCW8OBbnvPYzKBvyArDgdUDhx/2TyE8W42JNIT7pfe+5jxlbEwtpAwjqzAblYruUzrSPYfE36QOMRvd6XQNZNWUzYjNJG2ANxEDuANiIOcrKIROJvdgIs7psTKmUpwxlQ+0Rdjrj50CiOsZYhWGxRglDGc9iYCb2fNFbjAEq9GAMN7Vb/JAZ5hcMyu+YlHXJpzXlU2LtGBb7ZlL2W1gcy/UkfpPXsC6T8tvx2oOil5LQvnz58gXZ1h8JC/UEAA50vAAAAABJRU5ErkJggg==">
+                                                <p class=" text-xs md:text-sm font-normal mt-1 md:mt-2 lg:mt-2">: online
+                                                </p>
+                                            </div>
+
+                                            <div class=" flex">
+                                                <img class=" w-6 h-6 m-1"
+                                                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAACzUlEQVR4nO2V30tTYRjHDwRB4HWXXfVndFkzprWEBhEEmeR0us0lxoza2Zw/lkOFsDshiNlQwzHzjDnT2pnnTNuULvrplYWCF4ZpYWZz33jf5X60c3acSyHYA9+r8zzf7+c85907hilVqf7HMnU8bzPYAusNVi7RaOUSRltgrbl9quVIwpvsQaHByoHI1BZEi5NHa7cAC1Wk41DDzY5J2154c8c0Wl1ijiz3hcqiQhCuPIOwehm8ahe8Ko6Zi+8QvnaKPDPaJ77svblUOAVwidNKPvLh4oXTCKl+IXQW4FXA7FUgdhNYqJvFsPZYo9WfIAB07TIArS5xU8knz9tXPKVDoXNAtBqYr08rqlM3skkAS7dsODkLG0o+8gAh9Vs6OKPJHkrqltGW/ATkwMluoFucUvLJtwEvHRQv5w5GdWqzY9pKAG47Q7IAd1xChZKPLIDL+7F/N3QeEC5lDa3OOTa6xrc1eF130tHj/WSySx9C9yNPmPT0eN/35vORDNcPIXLdDfSNLeIrX43vc03YjFoQm3kCZ2ALk1M+7MQMP4lRYOgB+vp9YHt5qoGBUXwIttOQ7Zgp3j+2APvIItZe5vrY/CDKvi+MI+gk4foh+jBHwovHSMxekfqekkrM60EgiGedjCfLIX1f1HqwTpotY7mNDwOfAb4cePXXaVbQVtQMg+cbhbD4JAD8oPcFrWo3EqSR5XIbl/i7oAdqXlcQAJFv4hkFMIxIAmwm0xmGIU1EUqva4av+ANQXrCWxk/rWeqS99wVA139AgB9RM/W9MagAUDOIOGm8Ny4BQG+0gwEQyb0c68dyCmDvJ2gePToAG4euNMAwyghEjRtxApG5iRQA+TP5FwAcVlgOTnYYx1MA+SoFENn/PZCpfYXkK/Dl8SyIQjYR060wxRYETSQFUKiEKrF4gDfaMgqRuQlFqXbpjKg9UTRAqUrFHHL9BhuJ+qS8IRA/AAAAAElFTkSuQmCC">
+                                                <p class=" text-xs md:text-sm font-normal mt-1 md:mt-2 lg:mt-2">: 100
+                                                    seats
+                                                </p>
+                                            </div>
+
+                                            <div class=" flex">
+                                                <p class=" font-semibold text-xs md:text-sm lg:text-base m-0.5">Agenda
+                                                </p>
+                                                <a href="#"
+                                                    class=" hover:text-green-500 text-xs md:text-sm lg:text-base m-0.5">:
+                                                    www.djfskaljfk.pdf</a>
+
+                                            </div>
+
+                                            <div class=" flex">
+                                                <div class=" mt-2 flex">
+                                                    <p class=" font-semibold text-xs md:text-sm lg:text-base m-1 ">
+                                                        Price:
+                                                    </p>
+                                                    <p
+                                                        class=" font-bold text-red-600 text-sm md:text-sm lg:text-base m-1">
+                                                        $0.00</p>
+                                                </div>
+                                                <div class="flex ml-3">
+                                                    <a href="booking"><button
+                                                            class="h-8 px-2 m-2 text-white bg-green-600 transition-colors duration-500 border-solid border-green-600 border-2 rounded-lg focus:ring-green-400 hover:bg-green-700 hover:text-white">
+                                                            Booking</button></a>
+                                                </div>
+
+                                            </div>
+                                            <!-- <div class=" pl-10 mb-3">
                                             <button
                                                 class=" text-center align-middle outline outline-green-500 bg-green-500 w-20 h-5 hover:bg-green-700 text-xs lg:text-sm">Register</button>
                                         </div> -->
 
-                                        <div class=" flex">
-                                            <p class=" font-light text-sm mx-2">Rate </p>
+                                            <div class=" flex">
+                                                <p class=" font-light text-sm mx-2">Rate </p>
 
-                                            <img
-                                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAABbklEQVR4nJ2ST0oDUQzGR+sf3GtVcO8BPEBFqAnibIS5giAuPcCsbRERdegkFUEFcdwIYkvSQhHBblzo0o0eQPECLiqZOrWC02IDgffyy/e9vDfjOD1CgnzW0hk0hKCojIXBxEE+K4TvcQ4yhTIWhHBfGQ+UcPtf4ka4OikMbxXCuWoIs32neAgXRqtlmBdGV3l5SxhrdvLPNHDYrsXMtV7TtO9KUBTGT2V8EYIbYditMW5UjnCq+z2sZkwZKsr4ahrTOlHkZZThTAir9zveRL/rRZE3JoxXynDZmSKKvIwQniiB9DKp7OG4Ml4L40VHnERiIgR1W3fALw51JTj9i8dR56VpZfhwUsJY43hlJo07GmJOGO6Sve/7w5bJ3liNYTHVQAg2lbDUbkZXCJ7iZHTjAwhL1tPLIFCGc2FoKuFjbGL/RryGZswIgvQrENx+f+P17odqtZwhLaMnDM/Wk27AsNbwcyNp3Jj1dBe/AIzL3evAGdmbAAAAAElFTkSuQmCC">
-                                            <img
-                                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAABbklEQVR4nJ2ST0oDUQzGR+sf3GtVcO8BPEBFqAnibIS5giAuPcCsbRERdegkFUEFcdwIYkvSQhHBblzo0o0eQPECLiqZOrWC02IDgffyy/e9vDfjOD1CgnzW0hk0hKCojIXBxEE+K4TvcQ4yhTIWhHBfGQ+UcPtf4ka4OikMbxXCuWoIs32neAgXRqtlmBdGV3l5SxhrdvLPNHDYrsXMtV7TtO9KUBTGT2V8EYIbYditMW5UjnCq+z2sZkwZKsr4ahrTOlHkZZThTAir9zveRL/rRZE3JoxXynDZmSKKvIwQniiB9DKp7OG4Ml4L40VHnERiIgR1W3fALw51JTj9i8dR56VpZfhwUsJY43hlJo07GmJOGO6Sve/7w5bJ3liNYTHVQAg2lbDUbkZXCJ7iZHTjAwhL1tPLIFCGc2FoKuFjbGL/RryGZswIgvQrENx+f+P17odqtZwhLaMnDM/Wk27AsNbwcyNp3Jj1dBe/AIzL3evAGdmbAAAAAElFTkSuQmCC">
-                                            <img
-                                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAABbklEQVR4nJ2ST0oDUQzGR+sf3GtVcO8BPEBFqAnibIS5giAuPcCsbRERdegkFUEFcdwIYkvSQhHBblzo0o0eQPECLiqZOrWC02IDgffyy/e9vDfjOD1CgnzW0hk0hKCojIXBxEE+K4TvcQ4yhTIWhHBfGQ+UcPtf4ka4OikMbxXCuWoIs32neAgXRqtlmBdGV3l5SxhrdvLPNHDYrsXMtV7TtO9KUBTGT2V8EYIbYditMW5UjnCq+z2sZkwZKsr4ahrTOlHkZZThTAir9zveRL/rRZE3JoxXynDZmSKKvIwQniiB9DKp7OG4Ml4L40VHnERiIgR1W3fALw51JTj9i8dR56VpZfhwUsJY43hlJo07GmJOGO6Sve/7w5bJ3liNYTHVQAg2lbDUbkZXCJ7iZHTjAwhL1tPLIFCGc2FoKuFjbGL/RryGZswIgvQrENx+f+P17odqtZwhLaMnDM/Wk27AsNbwcyNp3Jj1dBe/AIzL3evAGdmbAAAAAElFTkSuQmCC">
-                                            <img
-                                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAABbklEQVR4nJ2ST0oDUQzGR+sf3GtVcO8BPEBFqAnibIS5giAuPcCsbRERdegkFUEFcdwIYkvSQhHBblzo0o0eQPECLiqZOrWC02IDgffyy/e9vDfjOD1CgnzW0hk0hKCojIXBxEE+K4TvcQ4yhTIWhHBfGQ+UcPtf4ka4OikMbxXCuWoIs32neAgXRqtlmBdGV3l5SxhrdvLPNHDYrsXMtV7TtO9KUBTGT2V8EYIbYditMW5UjnCq+z2sZkwZKsr4ahrTOlHkZZThTAir9zveRL/rRZE3JoxXynDZmSKKvIwQniiB9DKp7OG4Ml4L40VHnERiIgR1W3fALw51JTj9i8dR56VpZfhwUsJY43hlJo07GmJOGO6Sve/7w5bJ3liNYTHVQAg2lbDUbkZXCJ7iZHTjAwhL1tPLIFCGc2FoKuFjbGL/RryGZswIgvQrENx+f+P17odqtZwhLaMnDM/Wk27AsNbwcyNp3Jj1dBe/AIzL3evAGdmbAAAAAElFTkSuQmCC">
-                                            <img
-                                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAABbklEQVR4nJ2ST0oDUQzGR+sf3GtVcO8BPEBFqAnibIS5giAuPcCsbRERdegkFUEFcdwIYkvSQhHBblzo0o0eQPECLiqZOrWC02IDgffyy/e9vDfjOD1CgnzW0hk0hKCojIXBxEE+K4TvcQ4yhTIWhHBfGQ+UcPtf4ka4OikMbxXCuWoIs32neAgXRqtlmBdGV3l5SxhrdvLPNHDYrsXMtV7TtO9KUBTGT2V8EYIbYditMW5UjnCq+z2sZkwZKsr4ahrTOlHkZZThTAir9zveRL/rRZE3JoxXynDZmSKKvIwQniiB9DKp7OG4Ml4L40VHnERiIgR1W3fALw51JTj9i8dR56VpZfhwUsJY43hlJo07GmJOGO6Sve/7w5bJ3liNYTHVQAg2lbDUbkZXCJ7iZHTjAwhL1tPLIFCGc2FoKuFjbGL/RryGZswIgvQrENx+f+P17odqtZwhLaMnDM/Wk27AsNbwcyNp3Jj1dBe/AIzL3evAGdmbAAAAAElFTkSuQmCC">
-                                            <!-- <div class=" flex ml-32">
+                                                <img
+                                                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAABbklEQVR4nJ2ST0oDUQzGR+sf3GtVcO8BPEBFqAnibIS5giAuPcCsbRERdegkFUEFcdwIYkvSQhHBblzo0o0eQPECLiqZOrWC02IDgffyy/e9vDfjOD1CgnzW0hk0hKCojIXBxEE+K4TvcQ4yhTIWhHBfGQ+UcPtf4ka4OikMbxXCuWoIs32neAgXRqtlmBdGV3l5SxhrdvLPNHDYrsXMtV7TtO9KUBTGT2V8EYIbYditMW5UjnCq+z2sZkwZKsr4ahrTOlHkZZThTAir9zveRL/rRZE3JoxXynDZmSKKvIwQniiB9DKp7OG4Ml4L40VHnERiIgR1W3fALw51JTj9i8dR56VpZfhwUsJY43hlJo07GmJOGO6Sve/7w5bJ3liNYTHVQAg2lbDUbkZXCJ7iZHTjAwhL1tPLIFCGc2FoKuFjbGL/RryGZswIgvQrENx+f+P17odqtZwhLaMnDM/Wk27AsNbwcyNp3Jj1dBe/AIzL3evAGdmbAAAAAElFTkSuQmCC">
+                                                <img
+                                                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAABbklEQVR4nJ2ST0oDUQzGR+sf3GtVcO8BPEBFqAnibIS5giAuPcCsbRERdegkFUEFcdwIYkvSQhHBblzo0o0eQPECLiqZOrWC02IDgffyy/e9vDfjOD1CgnzW0hk0hKCojIXBxEE+K4TvcQ4yhTIWhHBfGQ+UcPtf4ka4OikMbxXCuWoIs32neAgXRqtlmBdGV3l5SxhrdvLPNHDYrsXMtV7TtO9KUBTGT2V8EYIbYditMW5UjnCq+z2sZkwZKsr4ahrTOlHkZZThTAir9zveRL/rRZE3JoxXynDZmSKKvIwQniiB9DKp7OG4Ml4L40VHnERiIgR1W3fALw51JTj9i8dR56VpZfhwUsJY43hlJo07GmJOGO6Sve/7w5bJ3liNYTHVQAg2lbDUbkZXCJ7iZHTjAwhL1tPLIFCGc2FoKuFjbGL/RryGZswIgvQrENx+f+P17odqtZwhLaMnDM/Wk27AsNbwcyNp3Jj1dBe/AIzL3evAGdmbAAAAAElFTkSuQmCC">
+                                                <img
+                                                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAABbklEQVR4nJ2ST0oDUQzGR+sf3GtVcO8BPEBFqAnibIS5giAuPcCsbRERdegkFUEFcdwIYkvSQhHBblzo0o0eQPECLiqZOrWC02IDgffyy/e9vDfjOD1CgnzW0hk0hKCojIXBxEE+K4TvcQ4yhTIWhHBfGQ+UcPtf4ka4OikMbxXCuWoIs32neAgXRqtlmBdGV3l5SxhrdvLPNHDYrsXMtV7TtO9KUBTGT2V8EYIbYditMW5UjnCq+z2sZkwZKsr4ahrTOlHkZZThTAir9zveRL/rRZE3JoxXynDZmSKKvIwQniiB9DKp7OG4Ml4L40VHnERiIgR1W3fALw51JTj9i8dR56VpZfhwUsJY43hlJo07GmJOGO6Sve/7w5bJ3liNYTHVQAg2lbDUbkZXCJ7iZHTjAwhL1tPLIFCGc2FoKuFjbGL/RryGZswIgvQrENx+f+P17odqtZwhLaMnDM/Wk27AsNbwcyNp3Jj1dBe/AIzL3evAGdmbAAAAAElFTkSuQmCC">
+                                                <img
+                                                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAABbklEQVR4nJ2ST0oDUQzGR+sf3GtVcO8BPEBFqAnibIS5giAuPcCsbRERdegkFUEFcdwIYkvSQhHBblzo0o0eQPECLiqZOrWC02IDgffyy/e9vDfjOD1CgnzW0hk0hKCojIXBxEE+K4TvcQ4yhTIWhHBfGQ+UcPtf4ka4OikMbxXCuWoIs32neAgXRqtlmBdGV3l5SxhrdvLPNHDYrsXMtV7TtO9KUBTGT2V8EYIbYditMW5UjnCq+z2sZkwZKsr4ahrTOlHkZZThTAir9zveRL/rRZE3JoxXynDZmSKKvIwQniiB9DKp7OG4Ml4L40VHnERiIgR1W3fALw51JTj9i8dR56VpZfhwUsJY43hlJo07GmJOGO6Sve/7w5bJ3liNYTHVQAg2lbDUbkZXCJ7iZHTjAwhL1tPLIFCGc2FoKuFjbGL/RryGZswIgvQrENx+f+P17odqtZwhLaMnDM/Wk27AsNbwcyNp3Jj1dBe/AIzL3evAGdmbAAAAAElFTkSuQmCC">
+                                                <img
+                                                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAABbklEQVR4nJ2ST0oDUQzGR+sf3GtVcO8BPEBFqAnibIS5giAuPcCsbRERdegkFUEFcdwIYkvSQhHBblzo0o0eQPECLiqZOrWC02IDgffyy/e9vDfjOD1CgnzW0hk0hKCojIXBxEE+K4TvcQ4yhTIWhHBfGQ+UcPtf4ka4OikMbxXCuWoIs32neAgXRqtlmBdGV3l5SxhrdvLPNHDYrsXMtV7TtO9KUBTGT2V8EYIbYditMW5UjnCq+z2sZkwZKsr4ahrTOlHkZZThTAir9zveRL/rRZE3JoxXynDZmSKKvIwQniiB9DKp7OG4Ml4L40VHnERiIgR1W3fALw51JTj9i8dR56VpZfhwUsJY43hlJo07GmJOGO6Sve/7w5bJ3liNYTHVQAg2lbDUbkZXCJ7iZHTjAwhL1tPLIFCGc2FoKuFjbGL/RryGZswIgvQrENx+f+P17odqtZwhLaMnDM/Wk27AsNbwcyNp3Jj1dBe/AIzL3evAGdmbAAAAAElFTkSuQmCC">
+                                                <!-- <div class=" flex ml-32">
                                                 <button>
                                                     <svg class=" lg:w-5 w-5 hover:fill-green-500" fill="none"
                                                         stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"
@@ -405,333 +470,19 @@
                                                     </svg>
                                                 </button>
                                             </div> -->
+                                            </div>
                                         </div>
-                                    </div>
 
-                                </div>
-
-
-                            </div>
-                            <!--  -->
-                        </div>
-
-
-                        <!-- end event post container -->
-
-                        <!-- start event post container -->
-                        <div class=" m-4 p-3 border border-gray-500 shadow-slate-400 shadow-md ">
-
-                            <div class=" flex">
-                                <div>
-                                    <img src="img/pf1.png" alt="#"
-                                        class=" w-16 rounded-full outline outline-gray-200 object-cover mx-3 mb-3">
-                                </div>
-                                <div class=" pl-2">
-                                    <!-- Username -->
-                                    <h1 class=" font-bold lg:text-xl md:text-md text-sm"> @Kanha23</h1>
-                                    <!-- date -->
-                                    <p class=" text-gray-400 font-light "> April, 26 2023</p>
-
-
-                                </div>
-                                <div class=" place-content-end">
-                                    <svg class=" w-8 " fill="none" stroke="currentColor" stroke-width="1.5"
-                                        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M6.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM12.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM18.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0z">
-                                        </path>
-                                    </svg>
-                                </div>
-
-                            </div>
-
-                            <!--  -->
-                            <div class="lg:flex md:flex space-x-4">
-                                <!-- event poster -->
-                                <div class=" lg:basis-1/2 md:basis-1/2 bg-slate-300 dark:bg-slate-900">
-                                    <img src="img/event-poster1.jpg">
-                                    <div class=" flex lg:mt-5 md:mt-5 sm:mt-3 mt-3 place-content-center align-middle">
-                                        <div class=" flex mx-2">
-                                            <img class=" w-8 h-8"
-                                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAABCUlEQVR4nO2ZPW7CUBCEN5ESiSpVyrQUtG7Q2zdd7kUJuUFyAsvb5wJR2hSuaCkgEacwMg2QP8mAsl5lPmlKrJ3dGckyIoQQ0ktGNrpGpQ+5Su8wbZy0gqVZO0tnA+0PHQdvDpVmnQ04b77ZV7b0ccQF/AfHnmgAvIAyQp34HJn6df2nwrlLHN4AWGJlif93B+roBsASK0vs2gH31+k6ugGwxMoLdMI7MmAHzH/r2GkZOkLZ0jSqgdUJnxZ/eXCli1zmofQZ/HTOSucocSd9B99n8S1bvpUI4OvmX+6tuJEo4GDz+jy28UAigV1hy+KpuJJoYBub9CgTuZSIoP1XpJEL7zkIIUR6zQbP5nJiMZY/owAAAABJRU5ErkJggg==">
-                                            <p class=" text-sm mt-1">Comment</p>
-                                        </div>
-                                        <div>
-
-                                        </div>
-                                        <div class=" flex mx-2">
-                                            <img class=" w-8 h-8"
-                                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAABUElEQVR4nOWUsUoDQRCGrxIECy0MaGcl+ATJZYZrZoxg7QOIvoQPID6GcMmMcI22VoIBFbXSwthK7AXTK7vZO8zlYs7Vg4ADU+wO83+7M7MbBP/aSOCSFO85btQqAbDALSt+kMBjJZCtBJZZ4cFCFJ5abVyZfci2wBIJ7LLCGSn2SGFgxDMXvPMSrif1eVY8YIG3EcG8TwKQ4A0rXBXGNFw1iakICZyT4H6rHa5zjGu2ydOanSYXiZPAy7DG2CNpQpYTN2qlxCcBbFnSkwteRMfR4kiOi5Ua0yKArbmbjry4i1+Xfmh5gJmWtKFfy+JtecBwFNE29NfihQDFU7vXwb1KACz4bNZmFCsCwLtZR0m0UA1AsWu+Yw+drvGpgL86aGYs+GoCmycYBp7GHWi6R9kfDyocffuJ6Y/8cAywk2zMWYi7iZcL9o240fKtwuzZJ8HuOy9uoNT3AAAAAElFTkSuQmCC">
-                                            <p class=" text-sm mt-1">Share</p>
-                                        </div>
                                     </div>
 
 
                                 </div>
                                 <!--  -->
-                                <!-- event post info -->
-                                <div class=" lg:basis-1/2 md:basis-1/2 mt-3">
-                                    <!-- title -->
-                                    <p class=" font-bold text-sm">Explore, learn how to start technology company</p>
-                                    <!-- description -->
-                                    <p class=" text-sm line-clamp-2">At Innovation Festival you will learn and connect
-                                        with experienced researchers, developers, and industry leaders in a
-                                        community-based way.</p>
-
-                                    <div class=" mt-2">
-                                        <div class=" flex ">
-                                            <img class=" w-6 h-6 m-1"
-                                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAABj0lEQVR4nO1YwU7CQBDd/8AABzWe9NTqzWTrReLH8RFcSAWBhJvlIhztemjskq4XvdpEmnJes1WJtqR2sGFLnJe8pFmS9+Z1Z6YJhCAQ28eNM20NnOmLYv/27lK3DhiJ6WQmEzqzZ906YKxMP6lbZy2W5+ZebBl2bBlRbJnyO9PG6d+LcvCrjhHF1OwtLk4PCLh4aoTrTCOaNVZn0OJBOtQIl/SsVjjAx5tfL+YdH2WM1Rk0AFiHml1IgEzbfNFp1jPGTqMODgDWoeYbIECecUMOr0cr06E9kpNmY4MAcB1SRgB1zePWVWKoqJ69k81aaAzUKSWAGjRlrt6gonredIg9oE4pAXSSYABrR26AcSGrSIIBON6ArEQLtTv9Hyz7nGEAjjcgK91CDL8DArdQLnCIOxUf4vauf8gYbiGBW+h/z0AbAwjcQrnQvS7Zn2fAFwvdxbI0/aD4n7suD3raC+YZ2oUDPDw+HTIuXitQtFR0eRDee8F+4QBJG83nNdcXXa3t5CfeNrh4BAKBINvCO+WE9Ir/r6VFAAAAAElFTkSuQmCC">
-                                            <p class=" text-green-600 md:text-sm text-xs mt-1 md:mt-2 lg:mt-2">
-                                                : Sun, Apr 9, 2023 10:00 PM
-                                            </p>
-                                        </div>
-
-                                        <div class=" flex">
-                                            <img class=" w-6 h-6 m-1"
-                                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAADT0lEQVR4nO2X3UsUURjGX4uCUrspqIuCNAW7CAqhIs/sWJa3WUT/QEnSdWaIsEFBUOiMVkJQF3UhhTflBxVIfmzknlmFJLsI6aI7Q8ywcs8R841zdlFbd2Z2Z7ezS8wDDwyz877n+c2ec2YGwJcvX77+G6EOO5BAPRJ4gRp8QgI/pWPH4txFrIHtkG/CU1CIGlxHAj9QA3TxPBIIYiVshXwQarAHCYynEDzRE6hBSW7DEyhFDb56CB8zgemcQeAxKEYNPnoOvwrxAXUoUg9A4FbG4bUViBtqw+uwCzVYcAj0HAnocnELV0E1atDjAPELj8BOdQAELjuEb3Koa3aAaFAHoMFLuzufQm2vTW2/mvSxEJ9tQuiutQE4blM7pRIg+fxPYTeJ715J1wGoEhKY8wxwGLbZAMyq/AdCSUNUQXUKtSdsAEJq0sdCtNiE6HGtJdBnU9ui8jmwGwks2SzG5rTBCSyJnsoAZJjY67Hdnt4rdxsdiqTFtLG/8yh6KQ0vATSozdqrhAa1ygHiEINZCB/KSXgJUAUkYwDi/vD7txBOc9s9fF9Ow0uAAJQjAeYBgKMOFZAPQg1u5v03gJPwKGyxfcFL7i/iOwFyqeAkbm4PL1YalNebFm991floeDlQ4BpeXPO68+GQqDEorxc9RC8loY1Rtt+grMmgLGRQtmhaHNd6oumSK8DEtYa/akyLY6wXGzHD7KoYI6uhg4gb2iLsnAidOHCi772dw7kzZbbhv9eV4P3QrGMPU5qNGBY7i4gFGYVvH4vuMy027D7gqp91D+NyYOP6qaNvwO6nAyn3MYUpH2yzoqWewneEoyWGxafTGjDuSPDKOoBIsDHtPqaEYDOt49GytAHknPQyoMXx7rt5nDl/YCW8OBbnvPYzKBvyArDgdUDhx/2TyE8W42JNIT7pfe+5jxlbEwtpAwjqzAblYruUzrSPYfE36QOMRvd6XQNZNWUzYjNJG2ANxEDuANiIOcrKIROJvdgIs7psTKmUpwxlQ+0Rdjrj50CiOsZYhWGxRglDGc9iYCb2fNFbjAEq9GAMN7Vb/JAZ5hcMyu+YlHXJpzXlU2LtGBb7ZlL2W1gcy/UkfpPXsC6T8tvx2oOil5LQvnz58gXZ1h8JC/UEAA50vAAAAABJRU5ErkJggg==">
-                                            <p class=" text-xs md:text-sm font-normal mt-1 md:mt-2 lg:mt-2">: online</p>
-                                        </div>
-
-                                        <div class=" flex">
-                                            <img class=" w-6 h-6 m-1"
-                                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAACzUlEQVR4nO2V30tTYRjHDwRB4HWXXfVndFkzprWEBhEEmeR0us0lxoza2Zw/lkOFsDshiNlQwzHzjDnT2pnnTNuULvrplYWCF4ZpYWZz33jf5X60c3acSyHYA9+r8zzf7+c85907hilVqf7HMnU8bzPYAusNVi7RaOUSRltgrbl9quVIwpvsQaHByoHI1BZEi5NHa7cAC1Wk41DDzY5J2154c8c0Wl1ijiz3hcqiQhCuPIOwehm8ahe8Ko6Zi+8QvnaKPDPaJ77svblUOAVwidNKPvLh4oXTCKl+IXQW4FXA7FUgdhNYqJvFsPZYo9WfIAB07TIArS5xU8knz9tXPKVDoXNAtBqYr08rqlM3skkAS7dsODkLG0o+8gAh9Vs6OKPJHkrqltGW/ATkwMluoFucUvLJtwEvHRQv5w5GdWqzY9pKAG47Q7IAd1xChZKPLIDL+7F/N3QeEC5lDa3OOTa6xrc1eF130tHj/WSySx9C9yNPmPT0eN/35vORDNcPIXLdDfSNLeIrX43vc03YjFoQm3kCZ2ALk1M+7MQMP4lRYOgB+vp9YHt5qoGBUXwIttOQ7Zgp3j+2APvIItZe5vrY/CDKvi+MI+gk4foh+jBHwovHSMxekfqekkrM60EgiGedjCfLIX1f1HqwTpotY7mNDwOfAb4cePXXaVbQVtQMg+cbhbD4JAD8oPcFrWo3EqSR5XIbl/i7oAdqXlcQAJFv4hkFMIxIAmwm0xmGIU1EUqva4av+ANQXrCWxk/rWeqS99wVA139AgB9RM/W9MagAUDOIOGm8Ny4BQG+0gwEQyb0c68dyCmDvJ2gePToAG4euNMAwyghEjRtxApG5iRQA+TP5FwAcVlgOTnYYx1MA+SoFENn/PZCpfYXkK/Dl8SyIQjYR060wxRYETSQFUKiEKrF4gDfaMgqRuQlFqXbpjKg9UTRAqUrFHHL9BhuJ+qS8IRA/AAAAAElFTkSuQmCC">
-                                            <p class=" text-xs md:text-sm font-normal mt-1 md:mt-2 lg:mt-2">: 100 seats
-                                            </p>
-                                        </div>
-
-                                        <div class=" flex">
-                                            <p class=" font-semibold text-xs md:text-sm lg:text-base m-0.5">Agenda</p>
-                                            <a href="#"
-                                                class=" hover:text-green-500 text-xs md:text-sm lg:text-base m-0.5">:
-                                                www.djfskaljfk.pdf</a>
-
-                                        </div>
-
-                                        <div class=" flex">
-                                            <div class=" mt-2 flex">
-                                                <p class=" font-semibold text-xs md:text-sm lg:text-base m-1 ">Price:
-                                                </p>
-                                                <p class=" font-bold text-red-600 text-sm md:text-sm lg:text-base m-1">
-                                                    $0.00</p>
-                                            </div>
-                                            <div class="flex ml-3">
-                                                <a href="detail"><button
-                                                        class="h-8 px-2 m-2 text-white bg-green-600 transition-colors duration-500 border-solid border-green-600 border-2 rounded-lg focus:ring-green-400 hover:bg-green-700 hover:text-white">
-                                                        Register</button></a>
-                                            </div>
-
-                                        </div>
-                                        <!-- <div class=" pl-10 mb-3">
-                <button
-                    class=" text-center align-middle outline outline-green-500 bg-green-500 w-20 h-5 hover:bg-green-700 text-xs lg:text-sm">Register</button>
-            </div> -->
-
-                                        <div class=" flex">
-                                            <p class=" font-light text-sm mx-2">Rate </p>
-
-                                            <img
-                                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAABbklEQVR4nJ2ST0oDUQzGR+sf3GtVcO8BPEBFqAnibIS5giAuPcCsbRERdegkFUEFcdwIYkvSQhHBblzo0o0eQPECLiqZOrWC02IDgffyy/e9vDfjOD1CgnzW0hk0hKCojIXBxEE+K4TvcQ4yhTIWhHBfGQ+UcPtf4ka4OikMbxXCuWoIs32neAgXRqtlmBdGV3l5SxhrdvLPNHDYrsXMtV7TtO9KUBTGT2V8EYIbYditMW5UjnCq+z2sZkwZKsr4ahrTOlHkZZThTAir9zveRL/rRZE3JoxXynDZmSKKvIwQniiB9DKp7OG4Ml4L40VHnERiIgR1W3fALw51JTj9i8dR56VpZfhwUsJY43hlJo07GmJOGO6Sve/7w5bJ3liNYTHVQAg2lbDUbkZXCJ7iZHTjAwhL1tPLIFCGc2FoKuFjbGL/RryGZswIgvQrENx+f+P17odqtZwhLaMnDM/Wk27AsNbwcyNp3Jj1dBe/AIzL3evAGdmbAAAAAElFTkSuQmCC">
-                                            <img
-                                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAABbklEQVR4nJ2ST0oDUQzGR+sf3GtVcO8BPEBFqAnibIS5giAuPcCsbRERdegkFUEFcdwIYkvSQhHBblzo0o0eQPECLiqZOrWC02IDgffyy/e9vDfjOD1CgnzW0hk0hKCojIXBxEE+K4TvcQ4yhTIWhHBfGQ+UcPtf4ka4OikMbxXCuWoIs32neAgXRqtlmBdGV3l5SxhrdvLPNHDYrsXMtV7TtO9KUBTGT2V8EYIbYditMW5UjnCq+z2sZkwZKsr4ahrTOlHkZZThTAir9zveRL/rRZE3JoxXynDZmSKKvIwQniiB9DKp7OG4Ml4L40VHnERiIgR1W3fALw51JTj9i8dR56VpZfhwUsJY43hlJo07GmJOGO6Sve/7w5bJ3liNYTHVQAg2lbDUbkZXCJ7iZHTjAwhL1tPLIFCGc2FoKuFjbGL/RryGZswIgvQrENx+f+P17odqtZwhLaMnDM/Wk27AsNbwcyNp3Jj1dBe/AIzL3evAGdmbAAAAAElFTkSuQmCC">
-                                            <img
-                                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAABbklEQVR4nJ2ST0oDUQzGR+sf3GtVcO8BPEBFqAnibIS5giAuPcCsbRERdegkFUEFcdwIYkvSQhHBblzo0o0eQPECLiqZOrWC02IDgffyy/e9vDfjOD1CgnzW0hk0hKCojIXBxEE+K4TvcQ4yhTIWhHBfGQ+UcPtf4ka4OikMbxXCuWoIs32neAgXRqtlmBdGV3l5SxhrdvLPNHDYrsXMtV7TtO9KUBTGT2V8EYIbYditMW5UjnCq+z2sZkwZKsr4ahrTOlHkZZThTAir9zveRL/rRZE3JoxXynDZmSKKvIwQniiB9DKp7OG4Ml4L40VHnERiIgR1W3fALw51JTj9i8dR56VpZfhwUsJY43hlJo07GmJOGO6Sve/7w5bJ3liNYTHVQAg2lbDUbkZXCJ7iZHTjAwhL1tPLIFCGc2FoKuFjbGL/RryGZswIgvQrENx+f+P17odqtZwhLaMnDM/Wk27AsNbwcyNp3Jj1dBe/AIzL3evAGdmbAAAAAElFTkSuQmCC">
-                                            <img
-                                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAABbklEQVR4nJ2ST0oDUQzGR+sf3GtVcO8BPEBFqAnibIS5giAuPcCsbRERdegkFUEFcdwIYkvSQhHBblzo0o0eQPECLiqZOrWC02IDgffyy/e9vDfjOD1CgnzW0hk0hKCojIXBxEE+K4TvcQ4yhTIWhHBfGQ+UcPtf4ka4OikMbxXCuWoIs32neAgXRqtlmBdGV3l5SxhrdvLPNHDYrsXMtV7TtO9KUBTGT2V8EYIbYditMW5UjnCq+z2sZkwZKsr4ahrTOlHkZZThTAir9zveRL/rRZE3JoxXynDZmSKKvIwQniiB9DKp7OG4Ml4L40VHnERiIgR1W3fALw51JTj9i8dR56VpZfhwUsJY43hlJo07GmJOGO6Sve/7w5bJ3liNYTHVQAg2lbDUbkZXCJ7iZHTjAwhL1tPLIFCGc2FoKuFjbGL/RryGZswIgvQrENx+f+P17odqtZwhLaMnDM/Wk27AsNbwcyNp3Jj1dBe/AIzL3evAGdmbAAAAAElFTkSuQmCC">
-                                            <img
-                                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAABbklEQVR4nJ2ST0oDUQzGR+sf3GtVcO8BPEBFqAnibIS5giAuPcCsbRERdegkFUEFcdwIYkvSQhHBblzo0o0eQPECLiqZOrWC02IDgffyy/e9vDfjOD1CgnzW0hk0hKCojIXBxEE+K4TvcQ4yhTIWhHBfGQ+UcPtf4ka4OikMbxXCuWoIs32neAgXRqtlmBdGV3l5SxhrdvLPNHDYrsXMtV7TtO9KUBTGT2V8EYIbYditMW5UjnCq+z2sZkwZKsr4ahrTOlHkZZThTAir9zveRL/rRZE3JoxXynDZmSKKvIwQniiB9DKp7OG4Ml4L40VHnERiIgR1W3fALw51JTj9i8dR56VpZfhwUsJY43hlJo07GmJOGO6Sve/7w5bJ3liNYTHVQAg2lbDUbkZXCJ7iZHTjAwhL1tPLIFCGc2FoKuFjbGL/RryGZswIgvQrENx+f+P17odqtZwhLaMnDM/Wk27AsNbwcyNp3Jj1dBe/AIzL3evAGdmbAAAAAElFTkSuQmCC">
-                                            <!-- <div class=" flex ml-32">
-                    <button>
-                        <svg class=" lg:w-5 w-5 hover:fill-green-500" fill="none"
-                            stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                            <path stroke-linecap="round" stroke-linejoin="round"
-                                d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3-3c-1.354 0-2.694-.055-4.02-.163a2.115 2.115 0 01-.825-.242m9.345-8.334a2.126 2.126 0 00-.476-.095 48.64 48.64 0 00-8.048 0c-1.131.094-1.976 1.057-1.976 2.192v4.286c0 .837.46 1.58 1.155 1.951m9.345-8.334V6.637c0-1.621-1.152-3.026-2.76-3.235A48.455 48.455 0 0011.25 3c-2.115 0-4.198.137-6.24.402-1.608.209-2.76 1.614-2.76 3.235v6.226c0 1.621 1.152 3.026 2.76 3.235.577.075 1.157.14 1.74.194V21l4.155-4.155">
-                            </path>
-                        </svg>
-                    </button>
-
-                    <button>
-                        <svg class=" lg:w-5 w-5 hover:fill-green-500" fill="none"
-                            stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                            <path stroke-linecap="round" stroke-linejoin="round"
-                                d="M7.217 10.907a2.25 2.25 0 100 2.186m0-2.186c.18.324.283.696.283 1.093s-.103.77-.283 1.093m0-2.186l9.566-5.314m-9.566 7.5l9.566 5.314m0 0a2.25 2.25 0 103.935 2.186 2.25 2.25 0 00-3.935-2.186zm0-12.814a2.25 2.25 0 103.933-2.185 2.25 2.25 0 00-3.933 2.185z">
-                            </path>
-                        </svg>
-                    </button>
-                </div> -->
-                                        </div>
-                                    </div>
-
-                                </div>
-
-
                             </div>
-                            <!--  -->
-                        </div>
+                        
 
 
                         <!-- end event post container -->
-
-                        <!-- start event post container -->
-                        <div class=" m-4 p-3 border border-gray-500 shadow-slate-400 shadow-md ">
-
-                            <div class=" flex">
-                                <div>
-                                    <img src="img/pf1.png" alt="#"
-                                        class=" w-16 rounded-full outline outline-gray-200 object-cover mx-3 mb-3">
-                                </div>
-                                <div class=" pl-2">
-                                    <!-- Username -->
-                                    <h1 class=" font-bold lg:text-xl md:text-md text-sm"> @Kanha23</h1>
-                                    <!-- date -->
-                                    <p class=" text-gray-400 font-light "> April, 26 2023</p>
-
-
-                                </div>
-                                <div class=" place-content-end">
-                                    <svg class=" w-8 " fill="none" stroke="currentColor" stroke-width="1.5"
-                                        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M6.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM12.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM18.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0z">
-                                        </path>
-                                    </svg>
-                                </div>
-
-                            </div>
-
-                            <!--  -->
-                            <div class="lg:flex md:flex space-x-4">
-                                <!-- event poster -->
-                                <div class=" lg:basis-1/2 md:basis-1/2 bg-slate-300 dark:bg-slate-900">
-                                    <img src="img/event-poster1.jpg">
-                                    <div class=" flex lg:mt-5 md:mt-5 sm:mt-3 mt-3 place-content-center align-middle">
-                                        <div class=" flex mx-2">
-                                            <img class=" w-8 h-8"
-                                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAABCUlEQVR4nO2ZPW7CUBCEN5ESiSpVyrQUtG7Q2zdd7kUJuUFyAsvb5wJR2hSuaCkgEacwMg2QP8mAsl5lPmlKrJ3dGckyIoQQ0ktGNrpGpQ+5Su8wbZy0gqVZO0tnA+0PHQdvDpVmnQ04b77ZV7b0ccQF/AfHnmgAvIAyQp34HJn6df2nwrlLHN4AWGJlif93B+roBsASK0vs2gH31+k6ugGwxMoLdMI7MmAHzH/r2GkZOkLZ0jSqgdUJnxZ/eXCli1zmofQZ/HTOSucocSd9B99n8S1bvpUI4OvmX+6tuJEo4GDz+jy28UAigV1hy+KpuJJoYBub9CgTuZSIoP1XpJEL7zkIIUR6zQbP5nJiMZY/owAAAABJRU5ErkJggg==">
-                                            <p class=" text-sm mt-1">Comment</p>
-                                        </div>
-                                        <div>
-
-                                        </div>
-                                        <div class=" flex mx-2">
-                                            <img class=" w-8 h-8"
-                                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAABUElEQVR4nOWUsUoDQRCGrxIECy0MaGcl+ATJZYZrZoxg7QOIvoQPID6GcMmMcI22VoIBFbXSwthK7AXTK7vZO8zlYs7Vg4ADU+wO83+7M7MbBP/aSOCSFO85btQqAbDALSt+kMBjJZCtBJZZ4cFCFJ5abVyZfci2wBIJ7LLCGSn2SGFgxDMXvPMSrif1eVY8YIG3EcG8TwKQ4A0rXBXGNFw1iakICZyT4H6rHa5zjGu2ydOanSYXiZPAy7DG2CNpQpYTN2qlxCcBbFnSkwteRMfR4kiOi5Ua0yKArbmbjry4i1+Xfmh5gJmWtKFfy+JtecBwFNE29NfihQDFU7vXwb1KACz4bNZmFCsCwLtZR0m0UA1AsWu+Yw+drvGpgL86aGYs+GoCmycYBp7GHWi6R9kfDyocffuJ6Y/8cAywk2zMWYi7iZcL9o240fKtwuzZJ8HuOy9uoNT3AAAAAElFTkSuQmCC">
-                                            <p class=" text-sm mt-1">Share</p>
-                                        </div>
-                                    </div>
-
-
-                                </div>
-                                <!--  -->
-                                <!-- event post info -->
-                                <div class=" lg:basis-1/2 md:basis-1/2 mt-3">
-                                    <!-- title -->
-                                    <p class=" font-bold text-sm">Explore, learn how to start technology company</p>
-                                    <!-- description -->
-                                    <p class=" text-sm line-clamp-2">At Innovation Festival you will learn and connect
-                                        with experienced researchers, developers, and industry leaders in a
-                                        community-based way.</p>
-
-                                    <div class=" mt-2">
-                                        <div class=" flex ">
-                                            <img class=" w-6 h-6 m-1"
-                                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAABj0lEQVR4nO1YwU7CQBDd/8AABzWe9NTqzWTrReLH8RFcSAWBhJvlIhztemjskq4XvdpEmnJes1WJtqR2sGFLnJe8pFmS9+Z1Z6YJhCAQ28eNM20NnOmLYv/27lK3DhiJ6WQmEzqzZ906YKxMP6lbZy2W5+ZebBl2bBlRbJnyO9PG6d+LcvCrjhHF1OwtLk4PCLh4aoTrTCOaNVZn0OJBOtQIl/SsVjjAx5tfL+YdH2WM1Rk0AFiHml1IgEzbfNFp1jPGTqMODgDWoeYbIECecUMOr0cr06E9kpNmY4MAcB1SRgB1zePWVWKoqJ69k81aaAzUKSWAGjRlrt6gonredIg9oE4pAXSSYABrR26AcSGrSIIBON6ArEQLtTv9Hyz7nGEAjjcgK91CDL8DArdQLnCIOxUf4vauf8gYbiGBW+h/z0AbAwjcQrnQvS7Zn2fAFwvdxbI0/aD4n7suD3raC+YZ2oUDPDw+HTIuXitQtFR0eRDee8F+4QBJG83nNdcXXa3t5CfeNrh4BAKBINvCO+WE9Ir/r6VFAAAAAElFTkSuQmCC">
-                                            <p class=" text-green-600 md:text-sm text-xs mt-1 md:mt-2 lg:mt-2">
-                                                : Sun, Apr 9, 2023 10:00 PM
-                                            </p>
-                                        </div>
-
-                                        <div class=" flex">
-                                            <img class=" w-6 h-6 m-1"
-                                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAADT0lEQVR4nO2X3UsUURjGX4uCUrspqIuCNAW7CAqhIs/sWJa3WUT/QEnSdWaIsEFBUOiMVkJQF3UhhTflBxVIfmzknlmFJLsI6aI7Q8ywcs8R841zdlFbd2Z2Z7ezS8wDDwyz877n+c2ec2YGwJcvX77+G6EOO5BAPRJ4gRp8QgI/pWPH4txFrIHtkG/CU1CIGlxHAj9QA3TxPBIIYiVshXwQarAHCYynEDzRE6hBSW7DEyhFDb56CB8zgemcQeAxKEYNPnoOvwrxAXUoUg9A4FbG4bUViBtqw+uwCzVYcAj0HAnocnELV0E1atDjAPELj8BOdQAELjuEb3Koa3aAaFAHoMFLuzufQm2vTW2/mvSxEJ9tQuiutQE4blM7pRIg+fxPYTeJ715J1wGoEhKY8wxwGLbZAMyq/AdCSUNUQXUKtSdsAEJq0sdCtNiE6HGtJdBnU9ui8jmwGwks2SzG5rTBCSyJnsoAZJjY67Hdnt4rdxsdiqTFtLG/8yh6KQ0vATSozdqrhAa1ygHiEINZCB/KSXgJUAUkYwDi/vD7txBOc9s9fF9Ow0uAAJQjAeYBgKMOFZAPQg1u5v03gJPwKGyxfcFL7i/iOwFyqeAkbm4PL1YalNebFm991floeDlQ4BpeXPO68+GQqDEorxc9RC8loY1Rtt+grMmgLGRQtmhaHNd6oumSK8DEtYa/akyLY6wXGzHD7KoYI6uhg4gb2iLsnAidOHCi772dw7kzZbbhv9eV4P3QrGMPU5qNGBY7i4gFGYVvH4vuMy027D7gqp91D+NyYOP6qaNvwO6nAyn3MYUpH2yzoqWewneEoyWGxafTGjDuSPDKOoBIsDHtPqaEYDOt49GytAHknPQyoMXx7rt5nDl/YCW8OBbnvPYzKBvyArDgdUDhx/2TyE8W42JNIT7pfe+5jxlbEwtpAwjqzAblYruUzrSPYfE36QOMRvd6XQNZNWUzYjNJG2ANxEDuANiIOcrKIROJvdgIs7psTKmUpwxlQ+0Rdjrj50CiOsZYhWGxRglDGc9iYCb2fNFbjAEq9GAMN7Vb/JAZ5hcMyu+YlHXJpzXlU2LtGBb7ZlL2W1gcy/UkfpPXsC6T8tvx2oOil5LQvnz58gXZ1h8JC/UEAA50vAAAAABJRU5ErkJggg==">
-                                            <p class=" text-xs md:text-sm font-normal mt-1 md:mt-2 lg:mt-2">: online</p>
-                                        </div>
-
-                                        <div class=" flex">
-                                            <img class=" w-6 h-6 m-1"
-                                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAACzUlEQVR4nO2V30tTYRjHDwRB4HWXXfVndFkzprWEBhEEmeR0us0lxoza2Zw/lkOFsDshiNlQwzHzjDnT2pnnTNuULvrplYWCF4ZpYWZz33jf5X60c3acSyHYA9+r8zzf7+c85907hilVqf7HMnU8bzPYAusNVi7RaOUSRltgrbl9quVIwpvsQaHByoHI1BZEi5NHa7cAC1Wk41DDzY5J2154c8c0Wl1ijiz3hcqiQhCuPIOwehm8ahe8Ko6Zi+8QvnaKPDPaJ77svblUOAVwidNKPvLh4oXTCKl+IXQW4FXA7FUgdhNYqJvFsPZYo9WfIAB07TIArS5xU8knz9tXPKVDoXNAtBqYr08rqlM3skkAS7dsODkLG0o+8gAh9Vs6OKPJHkrqltGW/ATkwMluoFucUvLJtwEvHRQv5w5GdWqzY9pKAG47Q7IAd1xChZKPLIDL+7F/N3QeEC5lDa3OOTa6xrc1eF130tHj/WSySx9C9yNPmPT0eN/35vORDNcPIXLdDfSNLeIrX43vc03YjFoQm3kCZ2ALk1M+7MQMP4lRYOgB+vp9YHt5qoGBUXwIttOQ7Zgp3j+2APvIItZe5vrY/CDKvi+MI+gk4foh+jBHwovHSMxekfqekkrM60EgiGedjCfLIX1f1HqwTpotY7mNDwOfAb4cePXXaVbQVtQMg+cbhbD4JAD8oPcFrWo3EqSR5XIbl/i7oAdqXlcQAJFv4hkFMIxIAmwm0xmGIU1EUqva4av+ANQXrCWxk/rWeqS99wVA139AgB9RM/W9MagAUDOIOGm8Ny4BQG+0gwEQyb0c68dyCmDvJ2gePToAG4euNMAwyghEjRtxApG5iRQA+TP5FwAcVlgOTnYYx1MA+SoFENn/PZCpfYXkK/Dl8SyIQjYR060wxRYETSQFUKiEKrF4gDfaMgqRuQlFqXbpjKg9UTRAqUrFHHL9BhuJ+qS8IRA/AAAAAElFTkSuQmCC">
-                                            <p class=" text-xs md:text-sm font-normal mt-1 md:mt-2 lg:mt-2">: 100 seats
-                                            </p>
-                                        </div>
-
-                                        <div class=" flex">
-                                            <p class=" font-semibold text-xs md:text-sm lg:text-base m-0.5">Agenda</p>
-                                            <a href="#"
-                                                class=" hover:text-green-500 text-xs md:text-sm lg:text-base m-0.5">:
-                                                www.djfskaljfk.pdf</a>
-
-                                        </div>
-
-                                        <div class=" flex">
-                                            <div class=" mt-2 flex">
-                                                <p class=" font-semibold text-xs md:text-sm lg:text-base m-1 ">Price:
-                                                </p>
-                                                <p class=" font-bold text-red-600 text-sm md:text-sm lg:text-base m-1">
-                                                    $0.00</p>
-                                            </div>
-                                            <div class="flex ml-3">
-                                                <a href="detail"><button
-                                                        class="h-8 px-2 m-2 text-white bg-green-600 transition-colors duration-500 border-solid border-green-600 border-2 rounded-lg focus:ring-green-400 hover:bg-green-700 hover:text-white">
-                                                        Register</button></a>
-                                            </div>
-
-                                        </div>
-                                        <!-- <div class=" pl-10 mb-3">
-                <button
-                    class=" text-center align-middle outline outline-green-500 bg-green-500 w-20 h-5 hover:bg-green-700 text-xs lg:text-sm">Register</button>
-            </div> -->
-
-                                        <div class=" flex">
-                                            <p class=" font-light text-sm mx-2">Rate </p>
-
-                                            <img
-                                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAABbklEQVR4nJ2ST0oDUQzGR+sf3GtVcO8BPEBFqAnibIS5giAuPcCsbRERdegkFUEFcdwIYkvSQhHBblzo0o0eQPECLiqZOrWC02IDgffyy/e9vDfjOD1CgnzW0hk0hKCojIXBxEE+K4TvcQ4yhTIWhHBfGQ+UcPtf4ka4OikMbxXCuWoIs32neAgXRqtlmBdGV3l5SxhrdvLPNHDYrsXMtV7TtO9KUBTGT2V8EYIbYditMW5UjnCq+z2sZkwZKsr4ahrTOlHkZZThTAir9zveRL/rRZE3JoxXynDZmSKKvIwQniiB9DKp7OG4Ml4L40VHnERiIgR1W3fALw51JTj9i8dR56VpZfhwUsJY43hlJo07GmJOGO6Sve/7w5bJ3liNYTHVQAg2lbDUbkZXCJ7iZHTjAwhL1tPLIFCGc2FoKuFjbGL/RryGZswIgvQrENx+f+P17odqtZwhLaMnDM/Wk27AsNbwcyNp3Jj1dBe/AIzL3evAGdmbAAAAAElFTkSuQmCC">
-                                            <img
-                                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAABbklEQVR4nJ2ST0oDUQzGR+sf3GtVcO8BPEBFqAnibIS5giAuPcCsbRERdegkFUEFcdwIYkvSQhHBblzo0o0eQPECLiqZOrWC02IDgffyy/e9vDfjOD1CgnzW0hk0hKCojIXBxEE+K4TvcQ4yhTIWhHBfGQ+UcPtf4ka4OikMbxXCuWoIs32neAgXRqtlmBdGV3l5SxhrdvLPNHDYrsXMtV7TtO9KUBTGT2V8EYIbYditMW5UjnCq+z2sZkwZKsr4ahrTOlHkZZThTAir9zveRL/rRZE3JoxXynDZmSKKvIwQniiB9DKp7OG4Ml4L40VHnERiIgR1W3fALw51JTj9i8dR56VpZfhwUsJY43hlJo07GmJOGO6Sve/7w5bJ3liNYTHVQAg2lbDUbkZXCJ7iZHTjAwhL1tPLIFCGc2FoKuFjbGL/RryGZswIgvQrENx+f+P17odqtZwhLaMnDM/Wk27AsNbwcyNp3Jj1dBe/AIzL3evAGdmbAAAAAElFTkSuQmCC">
-                                            <img
-                                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAABbklEQVR4nJ2ST0oDUQzGR+sf3GtVcO8BPEBFqAnibIS5giAuPcCsbRERdegkFUEFcdwIYkvSQhHBblzo0o0eQPECLiqZOrWC02IDgffyy/e9vDfjOD1CgnzW0hk0hKCojIXBxEE+K4TvcQ4yhTIWhHBfGQ+UcPtf4ka4OikMbxXCuWoIs32neAgXRqtlmBdGV3l5SxhrdvLPNHDYrsXMtV7TtO9KUBTGT2V8EYIbYditMW5UjnCq+z2sZkwZKsr4ahrTOlHkZZThTAir9zveRL/rRZE3JoxXynDZmSKKvIwQniiB9DKp7OG4Ml4L40VHnERiIgR1W3fALw51JTj9i8dR56VpZfhwUsJY43hlJo07GmJOGO6Sve/7w5bJ3liNYTHVQAg2lbDUbkZXCJ7iZHTjAwhL1tPLIFCGc2FoKuFjbGL/RryGZswIgvQrENx+f+P17odqtZwhLaMnDM/Wk27AsNbwcyNp3Jj1dBe/AIzL3evAGdmbAAAAAElFTkSuQmCC">
-                                            <img
-                                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAABbklEQVR4nJ2ST0oDUQzGR+sf3GtVcO8BPEBFqAnibIS5giAuPcCsbRERdegkFUEFcdwIYkvSQhHBblzo0o0eQPECLiqZOrWC02IDgffyy/e9vDfjOD1CgnzW0hk0hKCojIXBxEE+K4TvcQ4yhTIWhHBfGQ+UcPtf4ka4OikMbxXCuWoIs32neAgXRqtlmBdGV3l5SxhrdvLPNHDYrsXMtV7TtO9KUBTGT2V8EYIbYditMW5UjnCq+z2sZkwZKsr4ahrTOlHkZZThTAir9zveRL/rRZE3JoxXynDZmSKKvIwQniiB9DKp7OG4Ml4L40VHnERiIgR1W3fALw51JTj9i8dR56VpZfhwUsJY43hlJo07GmJOGO6Sve/7w5bJ3liNYTHVQAg2lbDUbkZXCJ7iZHTjAwhL1tPLIFCGc2FoKuFjbGL/RryGZswIgvQrENx+f+P17odqtZwhLaMnDM/Wk27AsNbwcyNp3Jj1dBe/AIzL3evAGdmbAAAAAElFTkSuQmCC">
-                                            <img
-                                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAABbklEQVR4nJ2ST0oDUQzGR+sf3GtVcO8BPEBFqAnibIS5giAuPcCsbRERdegkFUEFcdwIYkvSQhHBblzo0o0eQPECLiqZOrWC02IDgffyy/e9vDfjOD1CgnzW0hk0hKCojIXBxEE+K4TvcQ4yhTIWhHBfGQ+UcPtf4ka4OikMbxXCuWoIs32neAgXRqtlmBdGV3l5SxhrdvLPNHDYrsXMtV7TtO9KUBTGT2V8EYIbYditMW5UjnCq+z2sZkwZKsr4ahrTOlHkZZThTAir9zveRL/rRZE3JoxXynDZmSKKvIwQniiB9DKp7OG4Ml4L40VHnERiIgR1W3fALw51JTj9i8dR56VpZfhwUsJY43hlJo07GmJOGO6Sve/7w5bJ3liNYTHVQAg2lbDUbkZXCJ7iZHTjAwhL1tPLIFCGc2FoKuFjbGL/RryGZswIgvQrENx+f+P17odqtZwhLaMnDM/Wk27AsNbwcyNp3Jj1dBe/AIzL3evAGdmbAAAAAElFTkSuQmCC">
-                                            <!-- <div class=" flex ml-32">
-                    <button>
-                        <svg class=" lg:w-5 w-5 hover:fill-green-500" fill="none"
-                            stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                            <path stroke-linecap="round" stroke-linejoin="round"
-                                d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3-3c-1.354 0-2.694-.055-4.02-.163a2.115 2.115 0 01-.825-.242m9.345-8.334a2.126 2.126 0 00-.476-.095 48.64 48.64 0 00-8.048 0c-1.131.094-1.976 1.057-1.976 2.192v4.286c0 .837.46 1.58 1.155 1.951m9.345-8.334V6.637c0-1.621-1.152-3.026-2.76-3.235A48.455 48.455 0 0011.25 3c-2.115 0-4.198.137-6.24.402-1.608.209-2.76 1.614-2.76 3.235v6.226c0 1.621 1.152 3.026 2.76 3.235.577.075 1.157.14 1.74.194V21l4.155-4.155">
-                            </path>
-                        </svg>
-                    </button>
-
-                    <button>
-                        <svg class=" lg:w-5 w-5 hover:fill-green-500" fill="none"
-                            stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                            <path stroke-linecap="round" stroke-linejoin="round"
-                                d="M7.217 10.907a2.25 2.25 0 100 2.186m0-2.186c.18.324.283.696.283 1.093s-.103.77-.283 1.093m0-2.186l9.566-5.314m-9.566 7.5l9.566 5.314m0 0a2.25 2.25 0 103.935 2.186 2.25 2.25 0 00-3.935-2.186zm0-12.814a2.25 2.25 0 103.933-2.185 2.25 2.25 0 00-3.933 2.185z">
-                            </path>
-                        </svg>
-                    </button>
-                </div> -->
-                                        </div>
-                                    </div>
-
-                                </div>
-
-
-                            </div>
-                            <!--  -->
-                        </div>
-
-
-                        <!-- end event post container -->
-
-
-
 
                         <!-- end event post -->
 
@@ -772,4 +523,5 @@
     }
     </script>
 </body>
+
 </html>

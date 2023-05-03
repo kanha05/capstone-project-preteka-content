@@ -13,21 +13,24 @@
     <title>Document</title>
 </head>
 
-<body>
+<body class="dark:bg-black dark:text-white">
     <div>
         <!--Background opacity-->
         <div class="w-full md:h-96 sm:h-80 h-74 shadow-2xl overflow-hidden relative">
             <img class="absolute inset-0 w-screen md:h-96 sm:h-80 h-74 object-cover" src="img/layout-cover.jpg" alt="">
             <div class="absolute inset-0 bg-black bg-opacity-50"></div>
             <div class="lg:flex md:flex flex justify-between relative ">
-                <a href="./home"><img src="img/logo-use.png" class=" lg:w-32 md:w-32 sm:w-24 w-20 lg:ml-10 md:ml-10 sm:ml-5 ml-1 " alt=""></a>
+                <a href="./home"><img src="img/logo-use.png"
+                        class=" lg:w-32 md:w-32 sm:w-24 w-20 lg:ml-10 md:ml-10 sm:ml-5 ml-1 " alt=""></a>
                 <ul class="flex mt-5 lg:space-x-8 md:space-x-4 sm:pace-x-4 space-x-2">
                     <li class="  text-white hover:text-green-400 duration-100"><a href="./home"
                             class="font-semibold lg:text-xl md:text-sm  sm:text-xs text-xs duration-500 ">Home</a></li>
                     <li class=" text-white hover:text-green-400 duration-100"><a href="./event"
-                            class="font-semibold lg:text-xl md:text-sm  sm:text-xs text-xs  duration-500">Events</a></li>
+                            class="font-semibold lg:text-xl md:text-sm  sm:text-xs text-xs  duration-500">Events</a>
+                    </li>
                     <li class=" text-white hover:text-green-400 duration-100"><a href="./aboutus"
-                            class="font-semibold lg:text-xl md:text-sm  sm:text-xs  text-xs duration-500">About Us</a></li>
+                            class="font-semibold lg:text-xl md:text-sm  sm:text-xs  text-xs duration-500">About Us</a>
+                    </li>
                     <li class=" text-white hover:text-green-400 duration-100"><a href="./contact"
                             class="font-semibold lg:text-xl md:text-sm  sm:text-xs text-xs duration-500">Contact Us</a>
                     </li>
@@ -37,16 +40,18 @@
                         <img class=" md:w-6 md:h-6 sm:h-5 sm:w-5 h-4 w-4"
                             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAABj0lEQVR4nO1YwU7CQBDd/8AABzWe9NTqzWTrReLH8RFcSAWBhJvlIhztemjskq4XvdpEmnJes1WJtqR2sGFLnJe8pFmS9+Z1Z6YJhCAQ28eNM20NnOmLYv/27lK3DhiJ6WQmEzqzZ906YKxMP6lbZy2W5+ZebBl2bBlRbJnyO9PG6d+LcvCrjhHF1OwtLk4PCLh4aoTrTCOaNVZn0OJBOtQIl/SsVjjAx5tfL+YdH2WM1Rk0AFiHml1IgEzbfNFp1jPGTqMODgDWoeYbIECecUMOr0cr06E9kpNmY4MAcB1SRgB1zePWVWKoqJ69k81aaAzUKSWAGjRlrt6gonredIg9oE4pAXSSYABrR26AcSGrSIIBON6ArEQLtTv9Hyz7nGEAjjcgK91CDL8DArdQLnCIOxUf4vauf8gYbiGBW+h/z0AbAwjcQrnQvS7Zn2fAFwvdxbI0/aD4n7suD3raC+YZ2oUDPDw+HTIuXitQtFR0eRDee8F+4QBJG83nNdcXXa3t5CfeNrh4BAKBINvCO+WE9Ir/r6VFAAAAAElFTkSuQmCC">
                         <div class="moon cursor-pointer">
-                            <svg class=" md:w-6 md:h-6 sm:h-5 sm:w-5 h-4 w-4  moon" fill="none" stroke="currentColor" stroke-width="1.5"
-                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <svg class=" md:w-6 md:h-6 sm:h-5 sm:w-5 h-4 w-4  moon text-white" fill="none" stroke="currentColor"
+                                stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                                aria-hidden="true">
                                 <path stroke-linecap="round" stroke-linejoin="round"
                                     d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z">
                                 </path>
                             </svg>
                         </div>
                         <div class="sun cursor-pointer w-4">
-                            <svg class=" md:w-6 md:h-6 sm:h-5 sm:w-5 h-4 w-4 sun" fill="none" stroke="currentColor" stroke-width="1.5"
-                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <svg class=" md:w-6 md:h-6 sm:h-5 sm:w-5 h-4 w-4 sun" fill="none" stroke="currentColor"
+                                stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                                aria-hidden="true">
                                 <path stroke-linecap="round" stroke-linejoin="round"
                                     d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z">
                                 </path>
@@ -54,9 +59,27 @@
                         </div>
                         <img class=" md:w-6 md:h-6 sm:h-5 sm:w-5 h-4 w-4"
                             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAADu0lEQVR4nO2ZOWgVURSGJ0kR3CJok8U1kkIFl0axMQkWaiJoKdgmMaU2Ka1FwX3BEJN0aaLiErVTUNDKBdEqLoVauIFi8V6MfnLwf3h5ee/NvZMXnWh+GBjmnvOfMzPnnnvuuVE0gxmkB8Au4BLwDPgEjOmy+6ca2xmlEcAC4Avx+AosjNIG4IAcvAVsAJYAs4DZut+oMcOBKE0A5gDv5NzmEnLNkvkAzI3SAmC/HLvnIXtXsvuiNABYAbyWU+0e8u2SNZ0Vf8LBGqABqM57Ph84oyxjeABUePBVSNZguqeNK0+mWjZrJut8I/DeySCWZUYtVIC3evYNGADqAnjrgEHpIq574nYzmdluTOq8ZY/HIvrsfGkXZnRlIgO/bKwC7hfgHZNNwyPLZknID4vgVe4XK2yagE26qpI679ipcvia8myZbcOhUNJ1wDjw3VJf9JfAr7T7XaG2NkTxmt78eAKj9cBeoB8Y0dWvZ3UJ+E7Ilyu+CuulkAmcmIs0me2LFcO4XqYh8INkpB//F4CzEj4XYGQL8NF58WGgC2jTZfcXgKyzErcG8PdK74yPsKUyw54A53MZ6jKwtITscuCqk2laPW3skc6oj3CPhN9YhRkju9j58kc8F7JK4KjzJxo8qlzzxdDjm9buSGEoRnbA+fKxzue9RO5PnI+RHZKc+VQZsgLnVsTdJSbXuGJ+ma/zeeGUEUfBZGG25cOX4BUZ6JSyhci8AuPdGh8Odd7huCiOrgJj85zw7EhqYLRY+rJfX8x4AH+3OPqKLKZ+E7eEgZciWV5g7KbGtk6Cf7s4rhcJY8OLcrzAhPgDbmhs2yT428QxUmSfYXielN83hPamMoSAjphJbLWN4UJC/43D2iyGzphJ3BlK7JNG65w0OmGOeNrIiqO2bGlUi4zvQmaFGVqU/BaZ3zasSi0YPiUWsqpylxINKgdQeVDp6fwxZ8tYX+5SIrSYa3WKuaulwklhk/vyptMyFcWcdRoMvT7kzkvk/kRWK2y3U053a8JmnS/v5XyScjqXvjJxv7dAOJ3XpCwGG+sL5K2XLz+ANb5KV2TwhK+hvOzUpZfJbSn7VFvVJuA7KV8uhyit1Ub6b2/qW5xN/ZpQ5UMpaqscTEI8S02luMbWqkk4v9qjsfUwUWMrsLU4OEWtxXeJW4t5NUmx5u7pMjR3T5Vo7k6owaa6vb4jsL3eGKUB0/qAo8ARU/O0O2LKO+S7rQO9pWrRz9Z9eg/5/oljVoMdYqtoe6LdVEbXRz1L70H3DP5X/AT6o5UN0rX/AgAAAABJRU5ErkJggg==">
+                        <div class="dropdown">
+                            <button class=" rounded inline-flex items-center">
 
-                        <img class=" md:w-6 md:h-6 sm:h-5 sm:w-5 h-4 w-4"
+                                <img class=" md:w-6 md:h-6 sm:h-5 sm:w-5 h-4 w-4"
+                                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAACX0lEQVR4nO2XTU8UQRCG54BeFBbDBdarAokHQeWMJMaLRtz/Akj0CHKAA8Fw5OMnaODEjmvikT+gcvPrZiAEZNUDPKbMu0lnme6eGTXGhDfpZNJvVXV1V1V3TZKc4X8CMAA8Al4Cb4GvGvadAlNA/99Y+BbQID/MwZt/YuFzwDJwIsO7wArwQKdxQcO+x4FVySCdZ0BH2cUvAa9k7AiYAbpy6HUBs0DTOY3uMjtvyMBnC0GJDVwH3svGa+B8EeVlKX4Eqhn8fTloCXio73sZclXgk2wtFUm4Ex37cAZvx+vDTIb8DYXj2L7zONAIGLOdG74DE0CfxqTm8JzEU3FpbPEBJ9tPJZyTlBMZnN0BhkYGVwH2xF8NOTAtoRUPb/E29GZwveIOPLpr4idDDqQSGvfw++L7PAln2Pfo1sTXQw7sSKg/4uCpXeiKNmxFwvsu5MCBhDo9/F0nCae066oW/yHujke3MxSiXA5IZiFQhvMBvVwO7ERCYHH8EnDAuNrvhCD1JaHVty4Tw3Ng1HmMbgMvxB177oJaKEfaa3m1bb7HqQBvGTmJaLI9bdy67w6JXkTAk9bOkwiADck+LnwRGfR8GmaduW3NjSYRAGOS3Xbm5qLH34J1MnqMmq3Hw2kyLiYRONm+6zxu35QbQzH9X1Ang57Sy0lJmK7zHC8WUexwQmENyUiJxYeAD7KRFm7NgG7Hiaae1EoOvYpibsduqBduydpOYsmp/z2V00Ng0HJCY1B1vu5ku+kslm5KXQDXgE3yI83V/RSF1bC6n7p+Rg413liJqUu6UtjwGZJ/iJ90ivkzFRnZFwAAAABJRU5ErkJggg==">
+                            </button>
+                            <ul class="dropdown-menu absolute hidden text-white bg-transparent ">
+                                <li class=""><a
+                                        class="rounded-t bg-transparent lg:text-sm md:text-xs text-xs hover:text-green-600  block whitespace-no-wrap"
+                                        href="./pf-page">View profile</a></li>
+                                <li class=""><a
+                                        class="bg-transparent lg:text-sm md:text-xs text-xs hover:text-green-600  block whitespace-no-wrap"
+                                        href="#">Edit profile</a></li>
+                                <li class=""><a
+                                        class="rounded-b bg-transparent lg:text-sm md:text-xs text-xs hover:text-green-600  block whitespace-no-wrap"
+                                        href="#">Log out</a></li>
+                            </ul>
+                        </div>
+                        <!-- <img class=" md:w-6 md:h-6 sm:h-5 sm:w-5 h-4 w-4"
                             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAACX0lEQVR4nO2XTU8UQRCG54BeFBbDBdarAokHQeWMJMaLRtz/Akj0CHKAA8Fw5OMnaODEjmvikT+gcvPrZiAEZNUDPKbMu0lnme6eGTXGhDfpZNJvVXV1V1V3TZKc4X8CMAA8Al4Cb4GvGvadAlNA/99Y+BbQID/MwZt/YuFzwDJwIsO7wArwQKdxQcO+x4FVySCdZ0BH2cUvAa9k7AiYAbpy6HUBs0DTOY3uMjtvyMBnC0GJDVwH3svGa+B8EeVlKX4Eqhn8fTloCXio73sZclXgk2wtFUm4Ex37cAZvx+vDTIb8DYXj2L7zONAIGLOdG74DE0CfxqTm8JzEU3FpbPEBJ9tPJZyTlBMZnN0BhkYGVwH2xF8NOTAtoRUPb/E29GZwveIOPLpr4idDDqQSGvfw++L7PAln2Pfo1sTXQw7sSKg/4uCpXeiKNmxFwvsu5MCBhDo9/F0nCae066oW/yHujke3MxSiXA5IZiFQhvMBvVwO7ERCYHH8EnDAuNrvhCD1JaHVty4Tw3Ng1HmMbgMvxB177oJaKEfaa3m1bb7HqQBvGTmJaLI9bdy67w6JXkTAk9bOkwiADck+LnwRGfR8GmaduW3NjSYRAGOS3Xbm5qLH34J1MnqMmq3Hw2kyLiYRONm+6zxu35QbQzH9X1Ang57Sy0lJmK7zHC8WUexwQmENyUiJxYeAD7KRFm7NgG7Hiaae1EoOvYpibsduqBduydpOYsmp/z2V00Ng0HJCY1B1vu5ku+kslm5KXQDXgE3yI83V/RSF1bC6n7p+Rg413liJqUu6UtjwGZJ/iJ90ivkzFRnZFwAAAABJRU5ErkJggg==">
+                     -->
                     </div>
                 </div>
                 <div class="flex md:ml-3 sm:ml-0.5 ml-0.5 mt-3">
@@ -74,9 +97,9 @@
                 <form>
                     <div class="relative md:ml-36 sm:ml-24 lg:ml-44 ml-14">
                         <button class="inset-y-0 left-0 absolute flex items-center justify-center pl-3 px-4">
-                            <svg aria-hidden="true" class="lg:w-5 lg:h-5 w-3 h-3 text-gray-500 dark:text-gray-400 rounded-md"
-                                fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                                xmlns="http://www.w3.org/2000/svg">
+                            <svg aria-hidden="true"
+                                class="lg:w-5 lg:h-5 w-3 h-3 text-gray-500 dark:text-gray-400 rounded-md" fill="none"
+                                stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
                             </svg>
@@ -101,7 +124,8 @@
                 </ul> -->
             <!-- </div> -->
             <div class=" relative lg:mt-20 md:mt-12 sm:mt-5 mt-3 lg:ml-80 md:ml-60 sm:ml-44 ml-28">
-                <p class="lg:text-3xl md:text-xl sm:text-lg text-lg text-center font-bold text-green-600 w-3/4">Welcome to our
+                <p class="lg:text-3xl md:text-xl sm:text-lg text-lg text-center font-bold text-green-600 w-3/4">Welcome
+                    to our
                     ព្រឹត្តិការណ៍-Content</p>
                 <p class="lg:text-sm md:text-xs text-xs text-center text-white w-3/4">
                     Our website is created to provide user the best site to share and find many events in a bunch of
@@ -115,18 +139,22 @@
         </div>
     </div>
     <!--End Header-->
-        @yield('content')
+    @yield('content')
     <!--Footer-->
     <div class=" bg-green-400 m-auto items-center mt-5 ">
         <div>
             <h1 class="text-center text-3xl font-bold pt-5 text-white ">Our Partner</h1>
         </div>
         <div class="grid lg:grid-cols-5 grid-cols-3 mt-0  p-10   ">
-            <a href="https://www.cadt.edu.kh/"><img src="../img/cadt.png" alt="" class="w-20  lg:ml-20 ml-10  bg-white rounded-full"></a>
+            <a href="https://www.cadt.edu.kh/"><img src="../img/cadt.png" alt=""
+                    class="w-20  lg:ml-20 ml-10  bg-white rounded-full"></a>
             <a href="http://rupp.edu.kh/"><img src="../img/rupp.png" alt="" class="w-20 lg:ml-20 ml-10"></a>
-            <a href="https://www.aupp.edu.kh/"><img src="../img/aupp.png" alt="" class="w-20 lg:ml-20 ml-10 bg-white rounded-full"></a>
-            <a href="https://itc.edu.kh/"><img src="../img/itc.png" alt="" class="w-20 lg:ml-20 ml-10 bg-white rounded-full"></a>
-            <a href="https://paragoniu.edu.kh/"> <img src="../img/paragon.png" alt="" class="w-28 h-20 lg:ml-20 ml-10 bg-white "></a>
+            <a href="https://www.aupp.edu.kh/"><img src="../img/aupp.png" alt=""
+                    class="w-20 lg:ml-20 ml-10 bg-white rounded-full"></a>
+            <a href="https://itc.edu.kh/"><img src="../img/itc.png" alt=""
+                    class="w-20 lg:ml-20 ml-10 bg-white rounded-full"></a>
+            <a href="https://paragoniu.edu.kh/"> <img src="../img/paragon.png" alt=""
+                    class="w-28 h-20 lg:ml-20 ml-10 bg-white "></a>
         </div>
         <hr>
         <div class="m-auto items-center  grid md:grid-cols-4 grid-cols-2 text-white">
@@ -163,9 +191,12 @@
                     <li class="flex">
                         <img class=" w-8 h-8 mr-5 "
                             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAADT0lEQVR4nO2X3UsUURjGX4uCUrspqIuCNAW7CAqhIs/sWJa3WUT/QEnSdWaIsEFBUOiMVkJQF3UhhTflBxVIfmzknlmFJLsI6aI7Q8ywcs8R841zdlFbd2Z2Z7ezS8wDDwyz877n+c2ec2YGwJcvX77+G6EOO5BAPRJ4gRp8QgI/pWPH4txFrIHtkG/CU1CIGlxHAj9QA3TxPBIIYiVshXwQarAHCYynEDzRE6hBSW7DEyhFDb56CB8zgemcQeAxKEYNPnoOvwrxAXUoUg9A4FbG4bUViBtqw+uwCzVYcAj0HAnocnELV0E1atDjAPELj8BOdQAELjuEb3Koa3aAaFAHoMFLuzufQm2vTW2/mvSxEJ9tQuiutQE4blM7pRIg+fxPYTeJ715J1wGoEhKY8wxwGLbZAMyq/AdCSUNUQXUKtSdsAEJq0sdCtNiE6HGtJdBnU9ui8jmwGwks2SzG5rTBCSyJnsoAZJjY67Hdnt4rdxsdiqTFtLG/8yh6KQ0vATSozdqrhAa1ygHiEINZCB/KSXgJUAUkYwDi/vD7txBOc9s9fF9Ow0uAAJQjAeYBgKMOFZAPQg1u5v03gJPwKGyxfcFL7i/iOwFyqeAkbm4PL1YalNebFm991floeDlQ4BpeXPO68+GQqDEorxc9RC8loY1Rtt+grMmgLGRQtmhaHNd6oumSK8DEtYa/akyLY6wXGzHD7KoYI6uhg4gb2iLsnAidOHCi772dw7kzZbbhv9eV4P3QrGMPU5qNGBY7i4gFGYVvH4vuMy027D7gqp91D+NyYOP6qaNvwO6nAyn3MYUpH2yzoqWewneEoyWGxafTGjDuSPDKOoBIsDHtPqaEYDOt49GytAHknPQyoMXx7rt5nDl/YCW8OBbnvPYzKBvyArDgdUDhx/2TyE8W42JNIT7pfe+5jxlbEwtpAwjqzAblYruUzrSPYfE36QOMRvd6XQNZNWUzYjNJG2ANxEDuANiIOcrKIROJvdgIs7psTKmUpwxlQ+0Rdjrj50CiOsZYhWGxRglDGc9iYCb2fNFbjAEq9GAMN7Vb/JAZ5hcMyu+YlHXJpzXlU2LtGBb7ZlL2W1gcy/UkfpPXsC6T8tvx2oOil5LQvnz58gXZ1h8JC/UEAA50vAAAAABJRU5ErkJggg==">
-                            <a href="https://www.google.com/maps/place/Cambodia+Academy+of+Digital+Technology/@11.65306,104.911694,16z/data=!4m6!3m5!1s0x3109516bdea989b3:0x372d2c5e0e14b706!8m2!3d11.6530599!4d104.9116944!16s%2Fg%2F11byygmxw3?hl=en"><span class="mr-5 justify-start text-sm ">Brige2, National Road 6A, Sanngkat Prek Leap, Khan Chroy
-                            Changva, Phnom
-                            Penh</span></a>
+                        <a
+                            href="https://www.google.com/maps/place/Cambodia+Academy+of+Digital+Technology/@11.65306,104.911694,16z/data=!4m6!3m5!1s0x3109516bdea989b3:0x372d2c5e0e14b706!8m2!3d11.6530599!4d104.9116944!16s%2Fg%2F11byygmxw3?hl=en"><span
+                                class="mr-5 justify-start text-sm ">Brige2, National Road 6A, Sanngkat Prek Leap, Khan
+                                Chroy
+                                Changva, Phnom
+                                Penh</span></a>
                     </li>
                     <li class="flex">
                         <img class=" w-8 h-8 mr-5"

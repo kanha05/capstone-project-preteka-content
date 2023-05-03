@@ -2,11 +2,11 @@
 @section('content')
 <body>
     <div class="w-full lg:h-screen md:overflow-auto">
-        <div class="w-5/6 lg:h-screen md:overflow-auto flex mx-auto  border-t-2 border-gray-400">
+        <div class="w-5/6 lg:h-screen md:overflow-auto flex mx-auto  border-t-2 border-gray-400 ">
 
-            <div class="w-32 drop-shadow-lg bg-white  ">
-                <div class="w-3/4 h-24 mx-auto mt-4">
-                    <img class=" w-36" src="img/logo1.png" alt="">
+            <div class="w-32 drop-shadow-lg  bg-white ">
+                <div class="w-[100px] h-[100px] mx-auto   ">
+                    <img class="w-[100px] h-[100px] scale-150" src="img/logo1.png" alt="">
                 </div>
             </div>
 
@@ -22,19 +22,20 @@
                         </div>
                     </div>
                     <div class=" lg:-mt-7 md:mt-2 sm:mt-2 mt-2 ">
-                        <input class=" lg:p-3 md:p-2  p-1 flix items-center w-full lg:text-lg md:text-base lg:placeholder:text-lg placeholder:text-base border-2" type="text" placeholder="Event Title" >
+                        <input class=" hover:border-green-600 focus:ring-green-600 focus:border-green-600  lg:p-3 md:p-2  p-1 flix items-center w-full lg:text-lg md:text-base lg:placeholder:text-lg placeholder:text-base border-2" type="text" placeholder="Event Title" >
                         <p class=" text-gray-600 pt-2 lg:text-base md:text-base text-sm">* Be clear and desoriptive</p>
                     </div>
                     <div class=" lg:-mt-9 md:mt-1">
-                        <input class=" lg:p-3 md:p-2  p-1 flix items-center w-full lg:text-lg md:text-base lg:placeholder:text-lg placeholder:text-base border-2" type="text" placeholder="Organization" >
+                        <input class=" hover:border-green-600 focus:ring-green-600 focus:border-green-600  lg:p-3 md:p-2  p-1 flix items-center w-full lg:text-lg md:text-base lg:placeholder:text-lg placeholder:text-base border-2" type="text" placeholder="Organization" >
                         <p class=" text-gray-600 pt-2 lg:text-base md:text-base text-sm">* Tell attendeeswho is organizing this event</p>
                     </div>
 
                     <div class=" lg:-mt-10 md:mt-1 -mt-1 grid grid-rows-3 gap-5">
                         <div class="grid grid-cols-3 gap-4 place-items-left">
-                            <div class="  text-gray-600 ">Option1</div>
-                            <div class=" text-gray-600 ">Option2</div>
-                            <div class=" text-gray-600 ">Option3</div>
+                            <div class="  text-gray-600 ">Category1</div>
+                            <div class=" text-gray-600 ">Category2</div>
+                            <div class=" text-gray-600 ">Price</div>
+                          
                         </div>
                         <div class="grid grid-cols-3  lg:gap-4  lg:-mt-7 md:gap-3 md:-mt-4 -mt-4 gap-2">
                             <div class="">     
@@ -52,33 +53,32 @@
                                 <option value="FR">France</option>
                                 <option value="DE">Germany</option>
                             </select>
-                            </div>               
-                            <div class="">     
-                                  <select  id="countries_disabled" class=" flix items-center w-full bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block  lg:p-3 sm:p-3 md:p-3 p-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-                                  <option value="US">United States</option>
-                                  <option value="CA">Canada</option>
-                                  <option value="FR">France</option>
-                                  <option value="DE">Germany</option>
-                                </select>
-                        </div>                  
+                            </div>  
+                            <div class=" ">
+                              <div class="  "> <input class="flix items-center w-full bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block  lg:p-3 sm:p-3 md:p-3 p-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" type="text" placeholder="Price" ></div>                        
+                             </div>             
                         </div>
                         <div class=" lg:-mt-11 md:-mt-4 -mt-4"> <p class=" text-gray-600 pt-2">* Select category</p></div>
                     </div>
 
                     <div class="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2 grid-cols-1 gap-5 lg:-mt-[65px] md:-mt-5 -mt-5">
                         <div class=" grid grid-rows-2">
-                            <div class=" text-gray-600 ">Price</div>
-                            <div class="  lg:-mt-5 md:-mt-2 -mt-1"> <input class="  lg:p-3 md:p-2  p-1 flix items-center w-full lg:text-lg md:text-base lg:placeholder:text-lg placeholder:text-base border-2" type="text" placeholder="Price" ></div>                       
+                            <div class=" text-gray-600 ">Picture</div>
+                            <div class="  text-gray-600 lg:-mt-3 md:mt-0 sm:mt-0 mt-1 lg:text-sm md:text-md text-md ">
+                                <input type="file">
+                            </div>             
                          </div>
-                         <div class="grid grid-rows-2">
+                         <div class="grid grid-rows-2 ">
                             <div class="  text-gray-600 ">Agenda</div>
-                            <div class="  text-gray-600 lg:-mt-5 md:-mt-2 sm:-mt-2 mt-1 lg:text-sm md:text-sm text-sm "><input type="file"></div>
+                            <div class="  text-gray-600 lg:-mt-3 md:mt-0 sm:mt-0 mt-1 lg:text-sm md:text-md text-md ">
+                                <input type="file">
+                            </div>
                          </div>
                     </div>
                    
                     <div class=" row-span-2  grid grid-rows-2 lg:-mt-6 md:mt-1">
                         <div class="  text-gray-600 ">Description</div>
-                        <div class=" lg:-mt-7 md:-mt-3  -mt-3  grow pt-1"> <input class=" p-3 w-full h-full text-lg placeholder:text-lg border-2" type="text" placeholder="More detail.." ></div>                       
+                        <div class=" lg:-mt-7 md:-mt-3  -mt-3  grow pt-1"> <input class=" hover:border-green-600 focus:ring-green-600 focus:border-green-600  p-3 w-full h-full text-lg placeholder:text-lg border-2" type="text" placeholder="More detail.." ></div>                       
                     </div>
 
                 </div>
@@ -97,21 +97,21 @@
                     </div>
                     <div class=" lg:-mt-7 md:mt-1 mt-1 grid grid-cols-2 lg:gap-5 md:gap-4 sm:gap-3 gap-1" >
                       <div>
-                        <input class=" lg:p-3 md:p-2 flix items-center w-full lg:text-lg md:text-base lg:placeholder:text-lg md:placeholder:text-base border-2" type="date" placeholder="Event Title" >
+                        <input class=" hover:border-green-600 focus:ring-green-600 focus:border-green-600 lg:p-3 md:p-2 flix items-center w-full lg:text-lg md:text-base lg:placeholder:text-lg md:placeholder:text-base border-2" type="date" placeholder="Event Title" >
                         <p class=" text-gray-600 pt-2 lg:text-base md:text-base text-sm">Event Starts *</p>
                       </div>
                       <div>
-                        <input class="lg:p-3 md:p-2 flix items-center w-full ld:text-lg md:text-base lg:placeholder:text-lg md:placeholder:text-base  border-2" type="time" placeholder="Event Title" >
+                        <input class=" hover:border-green-600 focus:ring-green-600 focus:border-green-600 lg:p-3 md:p-2 flix items-center w-full ld:text-lg md:text-base lg:placeholder:text-lg md:placeholder:text-base  border-2" type="time" placeholder="Event Title" >
                         <p class="  text-gray-600 pt-2 lg:text-base md:text-base text-sm">Start Time *</p>
                       </div>
                     </div>
                     <div class=" lg:-mt-10 md:mt-1  grid grid-cols-2 lg:gap-5 md:gap-4 sm:gap-3 gap-1">
                         <div>
-                            <input class=" lg:p-3 md:p-2 flix items-center w-full lg:text-lg md:text-base lg:placeholder:text-lg md:placeholder:text-base border-2" type="date" placeholder="Event Title" >
+                            <input class=" hover:border-green-600 focus:ring-green-600 focus:border-green-600  lg:p-3 md:p-2 flix items-center w-full lg:text-lg md:text-base lg:placeholder:text-lg md:placeholder:text-base border-2" type="date" placeholder="Event Title" >
                             <p class=" text-gray-600 pt-2 lg:text-base md:text-base text-sm">Event Starts *</p>
                           </div>
                           <div>
-                            <input class="lg:p-3 md:p-2 flix items-center w-full ld:text-lg md:text-base lg:placeholder:text-lg md:placeholder:text-base  border-2" type="time" placeholder="Event Title" >
+                            <input class=" hover:border-green-600 focus:ring-green-600 focus:border-green-600  lg:p-3 md:p-2 flix items-center w-full ld:text-lg md:text-base lg:placeholder:text-lg md:placeholder:text-base  border-2" type="time" placeholder="Event Title" >
                             <p class=" text-gray-600 pt-2 lg:text-base md:text-base text-sm">Start Time *</p>
                           </div>
                     </div>
@@ -130,27 +130,27 @@
                        <div class="">
                         
                             <div class="flex items-center mb-4">
-                                <input id="default-radio-1" type="radio" value="" name="default-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                                <label for="default-radio-1" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Online</label>
+                                <input id="default-radio-1" type="radio" value="" name="default-radio" class=" hover:border-green-600  focus:border-green-600 w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                <label for="default-radio-1" class=" hover:border-green-600 focus:ring-green-600 focus:border-green-600 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Online</label>
                             </div>
                             <div class="flex items-center">
-                                <input checked id="default-radio-2" type="radio" value="" name="default-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                <input checked id="default-radio-2" type="radio" value="" name="default-radio" class=" hover:border-green-600  focus:border-green-600  w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
                                 <label for="default-radio-2" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Venue</label>
                             </div>
 
                        </div>
                        <div class="col-span-3">
-                         <input class=" lg:p-3 md:p-2 flix items-center w-full lg:text-lg md:text-base pl-4 lg:placeholder:text-lg md:placeholder:text-base border-2" type="text" placeholder="Address" >
+                         <input class=" hover:border-green-600 focus:ring-green-600 focus:border-green-600  lg:p-3 md:p-2 flix items-center w-full lg:text-lg md:text-base pl-4 lg:placeholder:text-lg md:placeholder:text-base border-2" type="text" placeholder="Address" >
                        </div>
                      
                     </div>
                    
-                    <div class="w-full lg:-mt-10  md:mt-4 mt-4  grid grid-cols-2   ">
-                        <div class="flex justify-center  lg:h-1/2">
-                            <button class=" bg-green-600 lg:px-10 py-2 md:px-7 px-7  lg:text-2xl md:text-1xl text-white hover:bg-green-200">Back</button>
+                    <div class="w-full lg:-mt-6  md:mt-4 mt-4  grid grid-cols-2  h-1/3 ">
+                        <div class="flex justify-center lg:p-5">
+                            <button class="lg:px-10  py-2 md:px-7 px-7 lg:text-2xl md:text-1xl    sm:px-4  m-2 text-white bg-green-600 transition-colors duration-500 border-solid border-green-600 border-2 rounded-lg focus:ring-green-400 hover:bg-green-700 hover:text-white">Back</button>
                         </div>
-                        <div class="flex justify-center lg:h-1/2">
-                            <button class=" bg-green-600 lg:px-10 py-2 md:px-7 px-7 lg:text-2xl md:text-1xl text-white hover:bg-green-200">Post</button>
+                        <div class="flex item-center justify-center  lg:p-5">
+                            <button class="  lg:px-10   py-2 md:px-7 px-7 lg:text-2xl md:text-1xl  sm:px-4   m-2 text-white bg-green-600 transition-colors duration-500 border-solid border-green-600 border-2 rounded-lg focus:ring-green-400 hover:bg-green-700 hover:text-white">Post</button>
                         </div>
                    </div>
                    
