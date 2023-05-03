@@ -129,7 +129,7 @@
             <a href="https://paragoniu.edu.kh/"> <img src="../img/paragon.png" alt="" class="w-28 h-20 lg:ml-20 ml-10 bg-white "></a>
         </div>
         <hr>
-        <div class="m-auto items-center  grid md:grid-cols-4 grid-cols-2 text-white  ">
+        <div class="m-auto items-center  grid md:grid-cols-4 grid-cols-2 text-white">
             <div class="space-y-5  lg:ml-10  ml-10 lg:mt-0 lg:mb-0 lg:mr-0 -mt-5 text-start  lg:pl-32">
                 <h1 class="text-2xl font-bold ">Explore</h1>
                 <ul class="lg:space-y-5 space-y-0">
