@@ -23,19 +23,19 @@
                 <div class="">
                     <label class="lg:text-lg md:text-md text-sm " for="">Old password</label>
                     <input type="password"
-                        class="w-full p-2 border border-gray-300 rounded-md pl-7 bg-gray-200 text-xl placeholder:italic mt-2"
+                        class="w-full lg:p-3 md:p-2  p-1 lg:text-lg md:text-base lg:placeholder:text-lg placeholder:text-base border border-gray-300 rounded-md pl-7 bg-gray-200 text-xl placeholder:italic mt-2"
                         name="code" id="code" placeholder="Old-password"/>
                 </div>
                 <div class="mt-3">
                     <label class="lg:text-lg md:text-md text-sm " for="">New password</label>
                     <input type="password"
-                        class="w-full p-2 border border-gray-300 rounded-md pl-7 bg-gray-200 text-xl placeholder:italic mt-2"
+                        class="w-full lg:p-3 md:p-2  p-1 lg:text-lg md:text-base lg:placeholder:text-lg placeholder:text-base border border-gray-300 rounded-md pl-7 bg-gray-200 text-xl placeholder:italic mt-2"
                         name="newpassword" id="newpassword" placeholder="New-password"/>
                 </div>
                 <div class="mt-3">
                     <label class="lg:text-lg md:text-md text-sm " for="">Confirm password</label>
                      <input type="password"
-                        class="w-full p-2 border border-gray-300 rounded-md pl-7 bg-gray-200 text-xl placeholder:italic mt-2 "
+                        class="w-full lg:p-3 md:p-2  p-1 lg:text-lg md:text-base lg:placeholder:text-lg placeholder:text-base border border-gray-300 rounded-md pl-7 bg-gray-200 text-xl placeholder:italic mt-2 "
                         name="confirm-password" id="confirm-password" placeholder="Confirm-password"/>
                 </div>
                
