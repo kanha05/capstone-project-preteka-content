@@ -10,12 +10,12 @@
           <div class="block">
             <img src="https://img.freepik.com/free-vector/music-event-poster-template-with-abstract-shapes_1361-1316.jpg" alt="poster">
             <div class="h-2 flex place-content-around">
-            <button class="h-8 px-2 m-2 text-green-700 transition-colors duration-500 border-solid border-green-700 border-2 rounded-lg focus:shadow-outline hover:bg-green-700 hover:text-white sm:flex flex">
+            <!-- <button class="h-8 px-2 m-2 text-green-700 transition-colors duration-500 border-solid border-green-700 border-2 rounded-lg focus:shadow-outline hover:bg-green-700 hover:text-white sm:flex flex">
               <svg class="w-5 inline-block" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
               <path stroke-linecap="round" stroke-linejoin="round" d="M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 01-.923 1.785A5.969 5.969 0 006 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337z"></path>
                 </svg>
                 Comment
-            </button>
+            </button> -->
           <p class="h-8 px-2 m-2 text-green-700 border-solid border-green-700 border-2 rounded-lg sm:flex flex">Rating: 
           <svg class="w-5 inline-block cursor-pointer" fill="none" stroke="currentColor" stroke-width="1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
           <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z"></path>
