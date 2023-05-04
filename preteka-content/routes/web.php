@@ -28,9 +28,11 @@ Route::get('/upload', function () {
     return view('frontend.upload');
 });
 Route::view('/payment','payment');
+Route::view('/changepassword','changepassword');
 Route::get('/pf-page', function () {
     return view('pf-page');
 });
+
 Route::get('/detail', function () {
     return view('frontend.detail');
 });
@@ -48,4 +50,19 @@ Route::get('/aboutus', function () {
 });
 Route::get('/home', function () {
     return view('frontend.homepage');
+});
+Route::get('/forgotpassword', function () {
+    return view('forgotpassword');
+});
+Route::get('/verifypassword', function () {
+    return view('verifypassword');
+});
+Route::get('/resetpassword', function () {
+    return view('resetpassword');
+});
+Route::get('/sharelink', function () {
+    return view('sharelink');
+});
+Route::get('/edit_pf', function () {
+    return view('edit_pf');
 });
