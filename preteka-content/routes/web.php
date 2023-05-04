@@ -28,10 +28,11 @@ Route::get('/upload', function () {
     return view('frontend.upload');
 });
 Route::view('/payment','payment');
-Route::view('/change','changepassword');
+Route::view('/changepassword','changepassword');
 Route::get('/pf-page', function () {
     return view('pf-page');
 });
+
 Route::get('/detail', function () {
     return view('frontend.detail');
 });
