@@ -17,10 +17,22 @@ class User extends Authenticatable
      *
      * @var array<int, string>
      */
+    protected $table = 'users';
     protected $fillable = [
-        'name',
+        'username',
         'email',
         'password',
+        'phone_number',
+        'pf_bio',
+        'work',
+        'edu',
+        'facebook',
+        'instagram',
+        'linkedin',
+        'pf-image',
+        'cover-image',
+        'role',
+        'dob'
     ];
 
     /**
@@ -41,4 +53,16 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+    public function organizations()
+    {
+        return $this->belongsToMany(Organization::class);
+    }
+    public function events()
+    {
+        return $this->belongsToMany(event::class);
+    }
+    public function messages()
+    {
+        return $this->belongsToMany(Message::class);
+    }
 }

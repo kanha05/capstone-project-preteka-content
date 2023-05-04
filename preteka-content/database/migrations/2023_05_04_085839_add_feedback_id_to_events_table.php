@@ -11,10 +11,11 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('event_cates', function (Blueprint $table) {
-            $table->id();
-            $table->timestamps();
-        });
+        Schema::table('events', function (Blueprint $table) {
+            //
+            $table->unsignedBigInteger('feedback_id')->nullable();
+            $table->foreign('feedback_id')->references('id')->on('feedbacks')->onDelete('cascade');
+            });
     }
 
     /**
@@ -22,6 +23,8 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('event_cates');
+        Schema::table('events', function (Blueprint $table) {
+            //
+        });
     }
 };

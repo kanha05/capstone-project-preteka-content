@@ -11,12 +11,10 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('booking_events', function (Blueprint $table) {
+        Schema::create('categories', function (Blueprint $table) {
             $table->id();
-            $table->string('fname',255);
-            $table->string('lname',255);
-            $table->string('email',255);
-            $table->string('org_name',255);
+            $table->string('name',255)->unique();
+            $table->string('description', 255);
             $table->timestamps();
         });
     }
@@ -26,6 +24,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('booking_events');
+        Schema::dropIfExists('categories');
     }
 };

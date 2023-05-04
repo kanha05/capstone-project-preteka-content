@@ -21,13 +21,18 @@ return new class extends Migration
             $table->time("time_start")->format('H:i');
             $table->time("time_end")->format('H:i');
             $table->string("location", 255);
-          
             $table->string("agenda", 255)->nullable();
             $table->decimal("price",6,2);
-           
-
-            
             $table->timestamps();
+
+            $table->bigInteger("user_id")->unsigned();
+            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
+
+            $table->bigInteger("comment_id")->unsigned();
+            $table->foreign('comment_id')->references('id')->on('comments')->onDelete('cascade');
+
+            $table->bigInteger("feedback_id")->unsigned();
+            $table->foreign('feedback_id')->references('id')->on('feedbacks')->onDelete('cascade');
         });
     }
 
@@ -39,3 +44,4 @@ return new class extends Migration
         Schema::dropIfExists('events');
     }
 };
+

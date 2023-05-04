@@ -13,11 +13,16 @@ return new class extends Migration
     {
         Schema::create('comments', function (Blueprint $table) {
             $table->id();
-            
             // username form user table
             $table->string('comment_text',255);
             $table->unsignedBigInteger('parent_id')->nullable();
             $table->timestamps();
+        });
+
+        Schema::create('parent_children', function (Blueprint $table) {
+            $table->integer('parent_id');
+            $table->integer('children_id');
+            $table->primary(['parent_id', 'children_id']);
         });
     }
 
