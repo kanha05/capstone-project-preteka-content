@@ -1,3 +1,4 @@
+alert("djhjksfjkkd");
 function popup(){
     const pop= document.getElementById("popup");
    pop.classList.add("he");

@@ -1,12 +1,12 @@
 .popup{
     transform:  scale(0);
-    position: absolute;
+    
     visibility:hidden ;
-    transition:trans;
-    top: 0;
+    top: -50%;
 }
 .he{
    visibility: visible;
    top: 50%;
    transform:  scale(1);
+
 }
