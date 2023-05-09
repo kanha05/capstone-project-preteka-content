@@ -1,7 +1,8 @@
+@include('sharelink')
 @extends('frontend.layout')
 @section('content')
-@include('sharelink')
-<body class="dark:bg-black dark:text-white bg-white font-inter">
+
+<body class=" popup dark:bg-black dark:text-white bg-white font-inter relative">
     <h1 class="text-2xl font-bold text-slate-950 grid place-content-center dark:text-white">
     Begin your Tai Chi journey: Traditional 
     </h1>
